@@ -1,0 +1,28 @@
+{
+ "ref": "050103440512",
+ "refDisplay": "0501 03 440512",
+ "title": "CANALISATION TUYAU HP/BP SERVO",
+ "nature": "",
+ "applicability": "BVM BE4R ET CONDUITE A DROITE OU BVM BE4R ET CONDUITE A DROITE",
+ "typDoc": "1",
+ "css": [
+  "css/Document/pr.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1CN7",
+   "variantKey": "B0D=B0DA3&B0F=B0F6V",
+   "fctId": "FCT0339"
+  },
+  {
+   "ldp": "1CN7",
+   "variantKey": "B0D=B0DA5&B0F=B0F6V",
+   "fctId": "FCT0339"
+  },
+  {
+   "ldp": "1CN7",
+   "variantKey": "B0D=B0DC5&B0F=B0F6V",
+   "fctId": "FCT0339"
+  }
+ ]
+}

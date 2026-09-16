@@ -1,0 +1,28 @@
+{
+ "ref": "050106235507A",
+ "refDisplay": "0501 06 235507A",
+ "title": "RADIATEUR",
+ "nature": "",
+ "applicability": "BVM ET RADIATEUR EP:27 - 21,3 DM2 MBA HP OU BVM ET RADIATEUR EP:27 - 21 DM2 ALU BRASE",
+ "typDoc": "1",
+ "css": [
+  "css/Document/pr.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1CN7",
+   "variantKey": "B0D=B0DA3&B0F=B0F6S",
+   "fctId": "FCT0009"
+  },
+  {
+   "ldp": "1CN7",
+   "variantKey": "B0D=B0DA5&B0F=B0F6S",
+   "fctId": "FCT0009"
+  },
+  {
+   "ldp": "1CN7",
+   "variantKey": "B0D=B0DC5&B0F=B0F6S",
+   "fctId": "FCT0009"
+  }
+ ]
+}

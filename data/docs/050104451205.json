@@ -1,0 +1,28 @@
+{
+ "ref": "050104451205",
+ "refDisplay": "0501 04 451205",
+ "title": "FREINS AVANT DISQUE ETRIER PLAQUETTES",
+ "nature": "",
+ "applicability": " JUSQU’A OPR 09184",
+ "typDoc": "1",
+ "css": [
+  "css/Document/pr.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1CN7",
+   "variantKey": "B0D=B0DA3&B0F=B0F6V",
+   "fctId": "FCT0040"
+  },
+  {
+   "ldp": "1CN7",
+   "variantKey": "B0D=B0DA5&B0F=B0F6V",
+   "fctId": "FCT0040"
+  },
+  {
+   "ldp": "1CN7",
+   "variantKey": "B0D=B0DC5&B0F=B0F6V",
+   "fctId": "FCT0040"
+  }
+ ]
+}

@@ -1,0 +1,33 @@
+{
+ "ref": "050108979630B",
+ "refDisplay": "0501 08 979630B",
+ "title": "GARNITURES INTERIEURES AR 2/3 PTES",
+ "nature": "",
+ "applicability": "PANNEAU GARNI DE TEP",
+ "typDoc": "1",
+ "css": [
+  "css/Document/pr.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1CN7",
+   "variantKey": "B0D=B0DAE&B0F=B0F7P",
+   "fctId": "FCT0234"
+  },
+  {
+   "ldp": "1CN7",
+   "variantKey": "B0D=B0DAE&B0F=B0F6Q",
+   "fctId": "FCT0234"
+  },
+  {
+   "ldp": "1CN7",
+   "variantKey": "B0D=B0DAE&B0F=B0F7H",
+   "fctId": "FCT0234"
+  },
+  {
+   "ldp": "1CN7",
+   "variantKey": "B0D=B0DAE&B0F=B0F2X",
+   "fctId": "FCT0234"
+  }
+ ]
+}

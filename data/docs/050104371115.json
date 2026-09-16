@@ -1,0 +1,28 @@
+{
+ "ref": "050104371115",
+ "refDisplay": "0501 04 371115",
+ "title": "TRANSMISSION TRANSVERSALE",
+ "nature": "",
+ "applicability": "BVM MA ET ANTI-BLOCAGE ROUE ET SANS SYSTEME ESP",
+ "typDoc": "1",
+ "css": [
+  "css/Document/pr.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1CN7",
+   "variantKey": "B0D=B0DA3&B0F=B0F6S",
+   "fctId": "FCT0022"
+  },
+  {
+   "ldp": "1CN7",
+   "variantKey": "B0D=B0DA5&B0F=B0F6S",
+   "fctId": "FCT0022"
+  },
+  {
+   "ldp": "1CN7",
+   "variantKey": "B0D=B0DC5&B0F=B0F6S",
+   "fctId": "FCT0022"
+  }
+ ]
+}

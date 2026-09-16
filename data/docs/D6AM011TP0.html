@@ -1,0 +1,621 @@
+<div id="title" class="section_titre"><table class="refDoc"><tbody><tr><td colspan="2" class="references">D6AM011TP0</td><td class="title">Télécodage : Boîtier de servitude intelligent </td></tr></tbody></table></div><div id="appl" class="section_appl"> DEPUIS OPR 9002</div><div class="section_corps" id="content"><div class="cha1"><a name="LABEL1"></a><div class="sti1">1. Véhicule concerné</div></div>
+<div class="par">Citroën XSARA 2.</div><div class="par">À partir du CD de diagnostic N° 24.</div><div class="cha1"><a name="LABEL36"></a><div class="sti1">2. Sommaire</div></div>
+<div class="par">Consignes de sécurité.</div><div class="par">Opérations préliminaires.</div><div class="par">Télécodage.</div><div class="tli">Tableaux de télécodage : 
+<ul>
+<li>Option client</li>
+<li>Configuration </li>
+<li>Calculateurs présents</li>
+<li>Code VIN </li>
+</ul>
+</div>
+<div class="cha1"><a name="LABEL16"></a><div class="sti1">3. Consignes de sécurité</div></div>
+<div class="par">L’opération de télécodage est une opération sensible qui a des conséquences directes sur le bon fonctionnement du véhicule.</div><div class="tli">Un mauvais télécodage peut avoir des impacts sur : 
+<ul>
+<li>La sécurité (Désactivation des dispositifs de protection du véhicule)</li>
+<li>Le fonctionnement global du véhicule (Dégradation ou perte complète des fonctions du véhicule)</li>
+<li>Le diagnostic du véhicule (Remontée de code défauts pouvant mettre en échec les méthodes de diagnostic de l’outil et conduire à des remplacements de pièces injustifiées)</li>
+</ul>
+</div>
+<div class="tli">Avant toute tentative de démarrage du moteur : 
+<ul>
+<li>Contrôler que le frein de stationnement est activé</li>
+<li>En présence d’une boîte de vitesses automatique, contrôler que le levier de vitesses est en position "P" (Park)</li>
+<li>En présence d’une boîte de vitesses manuelle, contrôler que le levier de vitesses est au point mort</li>
+</ul>
+</div>
+<div class="cha1"><a name="LABEL4"></a><div class="sti1">4. Opérations préliminaires</div></div>
+<div class="tli">Avant toute intervention : 
+<ul>
+<li>Établir la communication avec le calculateur, à l’aide de l’outil de diagnostic</li>
+<li>Imprimer l’ensemble des écrans de l’outil de diagnostic indiquant les valeurs des paramètres de télécodage, ou noter ces valeurs manuellement</li>
+</ul>
+</div>
+<div class="cha1"><a name="LABEL35"></a><div class="sti1">5. Télécodage</div></div>
+<div class="tli">En cas de télécodage du calculateur : 
+<ul>
+<li>Établir la communication avec le calculateur</li>
+<li>Effectuer le télécodage par internet</li>
+<li>Vérifier le télécodage</li>
+</ul>
+</div>
+<div class="tli">En cas de remplacement d’un calculateur : 
+<ul>
+<li>Monter le calculateur neuf</li>
+<li>Établir la communication avec le calculateur</li>
+<li>Effectuer le télécodage par internet</li>
+<li>Vérifier le télécodage</li>
+<li>Effectuer les opérations d’apprentissage (Si nécessaire)</li>
+</ul>
+</div>
+<div class="tli">Après toute intervention : 
+<ul>
+<li>Télécodage manuel des options clients (À partir des impressions d’écran ou des notes réalisées précédemment)</li>
+<li>Contrôle de certains paramètres en télécodage manuel (Se reporter aux tableaux de télécodage)</li>
+</ul>
+</div>
+<div class="par">Procédure à effectuer après le télécodage.</div><div class="tli">Opérations à effectuer en cas d’échange ou de téléchargement du boîtier de servitude intelligent uniquement : 
+<ul>
+<li>Si le boîtier de servitude intelligent a été remplacé : Effectuer l’apprentissage sur le véhicule ("Initialisation BSI")</li>
+<li>Si le boîtier de servitude intelligent a été téléchargé : Effectuer un apprentissage ("initialisation BSI"), ou un apprentissage des clés, ou seulement une synchronisation des télécommandes hautes fréquences</li>
+</ul>
+</div>
+<div class="rem"><div class="att"><span class="maj">ATTENTION</span> : Pour réaliser les opérations d’apprentissage, le code confidentiel et toutes les clés du véhicule sont nécessaires. </div></div>
+<div class="tli">Après avoir effectué les apprentissages, contrôler les paramètres suivants : 
+<ul>
+<li>Le paramètre "BSI appairé au calculateur contrôle moteur" doit être à la valeur "Oui"</li>
+<li>Le paramètre "calculateur contrôle moteur verrouillé" doit être à la valeur "Non"</li>
+<li>Le paramètre "nombre de clés apprises" doit être à la valeur "xx" (nombre total des clés du véhicule)</li>
+</ul>
+</div>
+<div class="par">Pour chaque clé, le paramètre "étiquette transpondeuse reconnue" doit être à la valeur "Oui".</div><div class="cha1"><a name="LABEL18"></a><div class="sti1">6. Tableaux de télécodage</div></div>
+<div class="rem"><div class="att"><span class="maj">ATTENTION</span> : L’affichage des paramètres de télécodage est conditionné par leur présence dans le logiciel du boîtier de servitude intelligent. Les paramètres seront affichés par l’outil de diagnostic partiellement ou en totalité selon la version du logiciel du boîtier de servitude intelligent. </div></div>
+<div class="tli">Après avoir sélectionné le menu "télécodage manuel", les menus suivants sont disponibles : 
+<ul>
+<li>Options client</li>
+<li>Configuration </li>
+<li>Calculateurs présents</li>
+<li>Code VIN </li>
+</ul>
+</div>
+<div class="rem"><div class="not"><span class="maj">NOTA</span> : Les paramètres du menu "options client" sont aussi présents dans le menu configuration, il n’est donc pas nécessaire de télécoder ceux-ci lorsque le télécodage des paramètres du menu "configuration" a été ou va être effectué. </div></div>
+<div class="cha2"><a name="LABEL37"></a><div class="sti2">6.1. Option client</div></div>
+<div class="tableau">
+<table class="tableauAC">
+<thead><tr><th class="tete" colspan="4">Option client</th></tr></thead>
+<tbody><tr valign="top"><td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1">Paramètres de télécodage</td>
+<td colspan="1" rowspan="1">Valeurs à télécoder</td>
+<td colspan="1" rowspan="1">Commentaires</td>
+</tr><tr valign="top"><td colspan="1" rowspan="2"></td>
+<td colspan="1" rowspan="2">Option alarme</td>
+<td colspan="1" rowspan="1">Absente</td>
+<td colspan="1" rowspan="1">Contrôler l’absence des capteurs volumétriques</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Présente</td>
+<td colspan="1" rowspan="1">Contrôler la présence des capteurs volumétriques</td>
+</tr><tr valign="top"><td colspan="1" rowspan="2"></td>
+<td colspan="1" rowspan="2">Option allumage des feux de détresse en cas de choc</td>
+<td colspan="1" rowspan="1">Absente</td>
+<td colspan="1" rowspan="1">Désactive l’allumage des feux de détresse en cas d’accident</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Présente</td>
+<td colspan="1" rowspan="1">Active l’allumage des feux de détresse en cas d’accident</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1">Option ouverture coffre à la télécommande haute fréquence</td>
+<td colspan="1" rowspan="1">Présente</td>
+<td colspan="1" rowspan="1">Télécoder toujours "présente"</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1">Neutralisation visualisation aux clignotants</td>
+<td colspan="1" rowspan="1">Absente</td>
+<td colspan="1" rowspan="1">Télécoder toujours "absente"</td>
+</tr><tr valign="top"><td colspan="1" rowspan="2"></td>
+<td colspan="1" rowspan="2">Option allumage des feux de détresse sur forte décélération</td>
+<td colspan="1" rowspan="1">Absente</td>
+<td colspan="1" rowspan="1">Désactive l’allumage des feux de détresse suite à une forte décélération</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Présente</td>
+<td colspan="1" rowspan="1">Active l’allumage des feux de détresse suite à une forte décélération</td>
+</tr><tr valign="top"><td colspan="1" rowspan="2"></td>
+<td colspan="1" rowspan="2">Option véhicule auto-école</td>
+<td colspan="1" rowspan="1">Absente</td>
+<td colspan="1" rowspan="1">Absence du module auto-école</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Présente</td>
+<td colspan="1" rowspan="1">Présence du module auto-école</td>
+</tr></tbody></table>
+</div>
+<div class="cha2"><a name="LABEL38"></a><div class="sti2">6.2. Configuration </div></div>
+<div class="tableau">
+<table class="tableauAC">
+<thead><tr><th class="tete" colspan="4">Configuration </th></tr></thead>
+<tbody><tr valign="top"><td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1">Paramètres de télécodage</td>
+<td colspan="1" rowspan="1">Valeurs à télécoder</td>
+<td colspan="1" rowspan="1">Commentaires</td>
+</tr><tr valign="top"><td colspan="1" rowspan="2"></td>
+<td colspan="1" rowspan="2">Code véhicule</td>
+<td colspan="1" rowspan="1">Véhicule 3 ou 5 portes<br>XSARA berline / Coupe</td>
+<td colspan="1" rowspan="2">Identifier le type du véhicule</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Véhicule Break ou Entreprise<br>XSARA break</td>
+</tr><tr valign="top"><td colspan="1" rowspan="2"></td>
+<td colspan="1" rowspan="2">Option ordinateur de bord </td>
+<td colspan="1" rowspan="1">Absente</td>
+<td colspan="1" rowspan="1">Écran multifonction  : Type A</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Présente</td>
+<td colspan="1" rowspan="1">Écran multifonction  : Type B, C ou AutoPC</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1">Option Alerte ouvrant</td>
+<td colspan="1" rowspan="1">Présente</td>
+<td colspan="1" rowspan="1">Télécoder toujours "présente"<br>(L’affichage de la détection d’ouverture des portes sur l’afficheur multifonction indique que le télécodage a été effectué correctement)</td>
+</tr><tr valign="top"><td colspan="1" rowspan="2"></td>
+<td colspan="1" rowspan="2">Option alerte survitesse </td>
+<td colspan="1" rowspan="1">Absente</td>
+<td colspan="1" rowspan="1">Télécoder toujours "absente" pour les véhicules non destinés à l’Arabie Saoudite</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Présente</td>
+<td colspan="1" rowspan="1">Télécoder toujours "présente" pour les véhicules destinés à l’Arabie Saoudite</td>
+</tr><tr valign="top"><td colspan="1" rowspan="2"></td>
+<td colspan="1" rowspan="2">Option boîte de vitesse automatique</td>
+<td colspan="1" rowspan="1">Absente</td>
+<td colspan="1" rowspan="1">Contrôler la présence d’une boîte de vitesses manuelle</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Présente</td>
+<td colspan="1" rowspan="1">Contrôler la présence d’une boîte de vitesses automatique</td>
+</tr><tr valign="top"><td colspan="1" rowspan="2"></td>
+<td colspan="1" rowspan="2">Option éclairage automatique</td>
+<td colspan="1" rowspan="1">Absent </td>
+<td colspan="1" rowspan="2">(1)</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Présent</td>
+</tr><tr valign="top"><td colspan="1" rowspan="2"></td>
+<td colspan="1" rowspan="2">Module de commutation sous volant</td>
+<td colspan="1" rowspan="1">Absent </td>
+<td colspan="1" rowspan="2">(1)</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Présent</td>
+</tr><tr valign="top"><td colspan="1" rowspan="2"></td>
+<td colspan="1" rowspan="2">Présence climatisation </td>
+<td colspan="1" rowspan="1">Non</td>
+<td colspan="1" rowspan="1">Contrôler l’absence d’un compresseur de climatisation</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Oui</td>
+<td colspan="1" rowspan="1">Contrôler la présence d’un compresseur de climatisation (Présence du bouton poussoir de climatisation)</td>
+</tr><tr valign="top"><td colspan="1" rowspan="2"></td>
+<td colspan="1" rowspan="2">Option direction à droite</td>
+<td colspan="1" rowspan="1">Absente</td>
+<td colspan="1" rowspan="1">Contrôler que le véhicule est de type "direction à gauche"</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Présente</td>
+<td colspan="1" rowspan="1">Contrôler que le véhicule est de type "direction à droite"</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1">Option essuie-vitre arrière</td>
+<td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1"></td>
+</tr><tr valign="top"><td colspan="1" rowspan="2"></td>
+<td colspan="1" rowspan="2">Option Lave-projecteur </td>
+<td colspan="1" rowspan="1">Absente</td>
+<td colspan="1" rowspan="1">Contrôler l’absence de lave-projecteurs</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Présente</td>
+<td colspan="1" rowspan="1">Contrôler la présence de lave-projecteurs</td>
+</tr><tr valign="top"><td colspan="1" rowspan="2"></td>
+<td colspan="1" rowspan="2">Option localisation</td>
+<td colspan="1" rowspan="1">Absent </td>
+<td colspan="1" rowspan="2">(1)</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Présent</td>
+</tr><tr valign="top"><td colspan="1" rowspan="2"></td>
+<td colspan="1" rowspan="2">Option navigation</td>
+<td colspan="1" rowspan="1">Absente</td>
+<td colspan="1" rowspan="1">Contrôler l’absence du lecteur d’aide à la navigation dans le coffre du véhicule</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Présente</td>
+<td colspan="1" rowspan="1">Contrôler la présence du lecteur d’aide à la navigation dans le coffre du véhicule</td>
+</tr><tr valign="top"><td colspan="1" rowspan="2"></td>
+<td colspan="1" rowspan="2">Option réception haute fréquence</td>
+<td colspan="1" rowspan="1">Absente</td>
+<td colspan="1" rowspan="2">(1)</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Présente</td>
+</tr><tr valign="top"><td colspan="1" rowspan="2"></td>
+<td colspan="1" rowspan="2">Option superverrouillage</td>
+<td colspan="1" rowspan="1">Absente</td>
+<td colspan="1" rowspan="1">Véhicule équipé d’un verrouillage simple</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Présente</td>
+<td colspan="1" rowspan="1">Véhicule équipé d’un superverrouillage (Verrouillage intérieur et extérieur des portes)</td>
+</tr><tr valign="top"><td colspan="1" rowspan="2"></td>
+<td colspan="1" rowspan="2">Présence climatisation régulée en température et en débit (RFTD)</td>
+<td colspan="1" rowspan="1">Non</td>
+<td colspan="1" rowspan="1">Contrôler l’absence de climatisation ou la présence d’une climatisation manuelle</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Oui</td>
+<td colspan="1" rowspan="1">Présence climatisation régulée en température et en débit (RFTD)</td>
+</tr><tr valign="top"><td colspan="1" rowspan="2"></td>
+<td colspan="1" rowspan="2">Version Japon</td>
+<td colspan="1" rowspan="1">Non</td>
+<td colspan="1" rowspan="1">Pour les véhicules non destinés au Japon</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Oui</td>
+<td colspan="1" rowspan="1">Pour les véhicules destinés au Japon</td>
+</tr><tr valign="top"><td colspan="1" rowspan="2"></td>
+<td colspan="1" rowspan="2">Éclairage automatique du combiné et de l’écran multifonction en fonction de la luminosité extérieure</td>
+<td colspan="1" rowspan="1">Inactif</td>
+<td colspan="1" rowspan="1">Absence de capteur de pluie/luminosité<br>Remarque : Contrôler que les fonctions relatives au capteur de pluie/luminosité sont absentes sur le véhicule</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Actif</td>
+<td colspan="1" rowspan="1">Présence d’un capteur de pluie/luminosité<br>Remarque : Contrôler que les fonctions relatives au capteur de pluie/luminosité sont présentes sur le véhicule</td>
+</tr><tr valign="top"><td colspan="1" rowspan="2"></td>
+<td colspan="1" rowspan="2">Option Allumage temporisé des feux - " Prolongation d’éclairage "</td>
+<td colspan="1" rowspan="1">Absente</td>
+<td colspan="1" rowspan="1">Désactive la prolongation de l’allumage des feux, véhicule à l’arrêt, contact coupé</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Présente</td>
+<td colspan="1" rowspan="1">Active la prolongation de l’allumage des feux, véhicule à l’arrêt, contact coupé</td>
+</tr><tr valign="top"><td colspan="1" rowspan="2"></td>
+<td colspan="1" rowspan="2">Option déverrouillage en cas de choc</td>
+<td colspan="1" rowspan="1">Absente</td>
+<td colspan="1" rowspan="2">(1)</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Présente</td>
+</tr><tr valign="top"><td colspan="1" rowspan="2"></td>
+<td colspan="1" rowspan="2">Option Déverrouillage en roulant d’un véhicule superverrouillé </td>
+<td colspan="1" rowspan="1">Absente</td>
+<td colspan="1" rowspan="1">Véhicule non équipé d’un superverrouillage</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Présente</td>
+<td colspan="1" rowspan="1">Véhicule équipé d’un superverrouillage</td>
+</tr><tr valign="top"><td colspan="1" rowspan="2"></td>
+<td colspan="1" rowspan="2">Option diffusion de la trame VAN "DATE-HEURE"</td>
+<td colspan="1" rowspan="1">Non</td>
+<td colspan="1" rowspan="1">Contrôler l’absence d’un afficheur multifonction</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Oui</td>
+<td colspan="1" rowspan="1">Contrôler la présence d’un afficheur multifonction</td>
+</tr><tr valign="top"><td colspan="1" rowspan="2"></td>
+<td colspan="1" rowspan="2">Option essuie-vitre arrière avec automatisme marche arrière</td>
+<td colspan="1" rowspan="1">Absente</td>
+<td colspan="1" rowspan="2">(1)</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Présente</td>
+</tr><tr valign="top"><td colspan="1" rowspan="2"></td>
+<td colspan="1" rowspan="2">Option essuie-vitre arrière cadencé en fonction de la vitesse de l’essuie-vitre avant</td>
+<td colspan="1" rowspan="1">Absente</td>
+<td colspan="1" rowspan="2">(1)</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Présente</td>
+</tr><tr valign="top"><td colspan="1" rowspan="2"></td>
+<td colspan="1" rowspan="2">Option essuie-vitre avant réduction de la vitesse de balayage à l’arrêt</td>
+<td colspan="1" rowspan="1">Absente</td>
+<td colspan="1" rowspan="2">(1)</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Présente</td>
+</tr><tr valign="top"><td colspan="1" rowspan="2"></td>
+<td colspan="1" rowspan="2">Option lave-vitre arrière</td>
+<td colspan="1" rowspan="1">Absente</td>
+<td colspan="1" rowspan="2">(1)</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Présente</td>
+</tr><tr valign="top"><td colspan="1" rowspan="2"></td>
+<td colspan="1" rowspan="2">Option ouverture coffre à la télécommande haute fréquence</td>
+<td colspan="1" rowspan="1">Absente</td>
+<td colspan="1" rowspan="2">(1)</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Présente</td>
+</tr><tr valign="top"><td colspan="1" rowspan="2"></td>
+<td colspan="1" rowspan="2">Option Reverrouillage automatique après un déverrouillage par télécommande haute fréquence</td>
+<td colspan="1" rowspan="1">Absente</td>
+<td colspan="1" rowspan="1">Contrôler l’absence d’une alarme sur le véhicule</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Présente</td>
+<td colspan="1" rowspan="1">Contrôler la présence d’une alarme sur le véhicule</td>
+</tr><tr valign="top"><td colspan="1" rowspan="2"></td>
+<td colspan="1" rowspan="2">Présence alimentation lève-vitre temporisée</td>
+<td colspan="1" rowspan="1">Absente</td>
+<td colspan="1" rowspan="2">(1)</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Présente</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1">Option Remplacement de la BSI </td>
+<td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1"></td>
+</tr><tr valign="top"><td colspan="1" rowspan="2"></td>
+<td colspan="1" rowspan="2">Option contrôle dynamique de stabilité (ESP)</td>
+<td colspan="1" rowspan="1">Absente</td>
+<td colspan="1" rowspan="1">Contrôler l’absence du contrôle dynamique de stabilité</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Présente</td>
+<td colspan="1" rowspan="1">Contrôler la présence du contrôle dynamique de stabilité</td>
+</tr><tr valign="top"><td colspan="1" rowspan="2"></td>
+<td colspan="1" rowspan="2">Option filtre à particules</td>
+<td colspan="1" rowspan="1">Absente</td>
+<td colspan="1" rowspan="2">(1)</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Présente</td>
+</tr><tr valign="top"><td colspan="1" rowspan="2"></td>
+<td colspan="1" rowspan="2">Neutralisation visualisation aux clignotements</td>
+<td colspan="1" rowspan="1">Absente</td>
+<td colspan="1" rowspan="2">(1)</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Présente</td>
+</tr><tr valign="top"><td colspan="1" rowspan="2"></td>
+<td colspan="1" rowspan="2">Type ADC - Génération 2</td>
+<td colspan="1" rowspan="1">Absente</td>
+<td colspan="1" rowspan="2">(1)</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Présente</td>
+</tr><tr valign="top"><td colspan="1" rowspan="2"></td>
+<td colspan="1" rowspan="2">Présence résistance chauffante (HDI)</td>
+<td colspan="1" rowspan="1">Oui</td>
+<td colspan="1" rowspan="1">Avec brûleur additionnel</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Non</td>
+<td colspan="1" rowspan="1">Sans brûleur additionnel</td>
+</tr><tr valign="top"><td colspan="1" rowspan="2"></td>
+<td colspan="1" rowspan="2">Option brûleur additionnel</td>
+<td colspan="1" rowspan="1">Absente</td>
+<td colspan="1" rowspan="1">Contrôler l’absence d’un chauffage additionnel</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Présente</td>
+<td colspan="1" rowspan="1">Contrôler la présence d’un chauffage additionnel</td>
+</tr><tr valign="top"><td colspan="1" rowspan="2"></td>
+<td colspan="1" rowspan="2">Option thermostat optimisé</td>
+<td colspan="1" rowspan="1">Absente</td>
+<td colspan="1" rowspan="1">Absence de climatisation</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Présente</td>
+<td colspan="1" rowspan="1">Présence de la climatisation</td>
+</tr><tr valign="top"><td colspan="1" rowspan="2"></td>
+<td colspan="1" rowspan="2">Option ABS</td>
+<td colspan="1" rowspan="1">Absente</td>
+<td colspan="1" rowspan="1">Contrôler l’absence de l’antiblocage de roues</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Présente</td>
+<td colspan="1" rowspan="1">Contrôler la présence de l’antiblocage de roues</td>
+</tr><tr valign="top"><td colspan="1" rowspan="2"></td>
+<td colspan="1" rowspan="2">Option véhicule auto-école</td>
+<td colspan="1" rowspan="1">Absente</td>
+<td colspan="1" rowspan="1">Absence du module auto-école</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Présente</td>
+<td colspan="1" rowspan="1">Présence du module auto-école</td>
+</tr><tr valign="top"><td colspan="1" rowspan="2"></td>
+<td colspan="1" rowspan="2">Présence alerte usure pile télécommande haute fréquence</td>
+<td colspan="1" rowspan="1">Oui</td>
+<td colspan="1" rowspan="2">(1)</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Non</td>
+</tr><tr valign="top"><td colspan="1" rowspan="2"></td>
+<td colspan="1" rowspan="2">Option mesure de la température extérieure</td>
+<td colspan="1" rowspan="1">Absente</td>
+<td colspan="1" rowspan="1">Absence de sonde de température extérieure dans le rétroviseur droit</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Présente</td>
+<td colspan="1" rowspan="1">Présence d’une sonde de température extérieure dans le rétroviseur droit</td>
+</tr><tr valign="top"><td colspan="1" rowspan="2"></td>
+<td colspan="1" rowspan="2">Présence projecteurs antibrouillard avant</td>
+<td colspan="1" rowspan="1">Absente</td>
+<td colspan="1" rowspan="1">Absence projecteurs antibrouillard avant</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Présente</td>
+<td colspan="1" rowspan="1">Présence projecteurs antibrouillard avant</td>
+</tr><tr valign="top"><td colspan="1" rowspan="2"></td>
+<td colspan="1" rowspan="2">Antibrouillards et feux de croisement dans la même optique</td>
+<td colspan="1" rowspan="1">Absente</td>
+<td colspan="1" rowspan="2">(1)</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Présente</td>
+</tr><tr valign="top"><td colspan="1" rowspan="2"></td>
+<td colspan="1" rowspan="2">Option capteur température huile</td>
+<td colspan="1" rowspan="1">Absente</td>
+<td colspan="1" rowspan="1">Contrôler l’absence du témoin température d’huile au combiné</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Présente</td>
+<td colspan="1" rowspan="1">Contrôler la présence du témoin température d’huile au combiné</td>
+</tr><tr valign="top"><td colspan="1" rowspan="2"></td>
+<td colspan="1" rowspan="2">Option Alerte Survitesse réglable</td>
+<td colspan="1" rowspan="1">Absente</td>
+<td colspan="1" rowspan="1">Télécoder toujours "absente" pour les véhicules destinés à l’Arabie Saoudite</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Présente</td>
+<td colspan="1" rowspan="1">Télécoder à "présente" pour les véhicules présentant la fonction survitesse et non destinés à l’Arabie Saoudite</td>
+</tr><tr valign="top"><td colspan="1" rowspan="2"></td>
+<td colspan="1" rowspan="2"> feux diurnes</td>
+<td colspan="1" rowspan="1">Non</td>
+<td colspan="1" rowspan="1">Pour les véhicules non destinés aux pays nordiques</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Oui</td>
+<td colspan="1" rowspan="1">Allumage continu des feux de croisement pour les pays nordiques</td>
+</tr><tr valign="top"><td colspan="1" rowspan="2"></td>
+<td colspan="1" rowspan="2">Présence autoradio sur le VAN</td>
+<td colspan="1" rowspan="1">Absente</td>
+<td colspan="1" rowspan="2">(1)</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Présente</td>
+</tr><tr valign="top"><td colspan="1" rowspan="2"></td>
+<td colspan="1" rowspan="2">Présence sonde eau dans gasoil</td>
+<td colspan="1" rowspan="1">Non</td>
+<td colspan="1" rowspan="1">Contrôler l’absence de la sonde de présence d’eau dans le gazole</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Oui</td>
+<td colspan="1" rowspan="1">Contrôler la présence de la sonde de présence d’eau dans le gazole</td>
+</tr><tr valign="top"><td colspan="1" rowspan="2"></td>
+<td colspan="1" rowspan="2">Option lève-vitre Australie</td>
+<td colspan="1" rowspan="1">Absente</td>
+<td colspan="1" rowspan="1">Pour les véhicules non destinés à l’Australie</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Présente</td>
+<td colspan="1" rowspan="1">Pour les véhicules destinés à l’Australie</td>
+</tr><tr valign="top"><td colspan="1" rowspan="2"></td>
+<td colspan="1" rowspan="2">Option entrée contact embrayage</td>
+<td colspan="1" rowspan="1">Non</td>
+<td colspan="1" rowspan="2">(1)</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Oui</td>
+</tr><tr valign="top"><td colspan="1" rowspan="2"></td>
+<td colspan="1" rowspan="2">Présence groupe motoventilateur tri-vitesse</td>
+<td colspan="1" rowspan="1">Non</td>
+<td colspan="1" rowspan="2">(1)</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Oui</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1">Sensibilité de la fonction allumage automatique des feux</td>
+<td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1"></td>
+</tr><tr valign="top"><td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1">Sensibilité de la fonction essuyage automatique</td>
+<td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1"></td>
+</tr><tr valign="top"><td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1">Référence pare-brise </td>
+<td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1"></td>
+</tr><tr valign="top"><td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1">Option de filtrage de la vitesse</td>
+<td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1"></td>
+</tr><tr valign="top"><td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1">Option maintenance évoluée</td>
+<td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1"></td>
+</tr><tr valign="top"><td colspan="1" rowspan="2"></td>
+<td colspan="1" rowspan="2">Option régulation de vitesse véhicule</td>
+<td colspan="1" rowspan="1">Absente</td>
+<td colspan="1" rowspan="1">Contrôler l’absence de la fonction régulation de vitesse sur le module de commutation sous volant de direction</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Présente</td>
+<td colspan="1" rowspan="1">Contrôler la présence de la fonction régulation de vitesse sur le module de commutation sous volant de direction</td>
+</tr><tr valign="top"><td colspan="1" rowspan="2"></td>
+<td colspan="1" rowspan="2">Option bi capteur de luminosité / pluie vanisé</td>
+<td colspan="1" rowspan="1">Non</td>
+<td colspan="1" rowspan="1">Contrôler l’absence des fonctions essuyage automatique et allumage automatique des feux sur le module de commutation sous volant de direction</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Oui</td>
+<td colspan="1" rowspan="1">Contrôler la présence des fonctions essuyage automatique et allumage automatique des feux sur le module de commutation sous volant de direction</td>
+</tr><tr valign="top"><td colspan="1" rowspan="2"></td>
+<td colspan="1" rowspan="2">Option Allumage automatique des feux</td>
+<td colspan="1" rowspan="1">Absent </td>
+<td colspan="1" rowspan="1">Contrôler l’absence du capteur de pluie/luminosité et de la fonction allumage automatique des feux sur le module de commutation sous volant de direction</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Présent</td>
+<td colspan="1" rowspan="1">Contrôler la présence du capteur de pluie/luminosité et de la fonction allumage automatique des feux sur le module de commutation sous volant de direction</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1">Option filtrage information accélération véhicule</td>
+<td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1"></td>
+</tr><tr valign="top"><td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1">Inhibition délestage</td>
+<td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1"></td>
+</tr><tr valign="top"><td colspan="1" rowspan="2"></td>
+<td colspan="1" rowspan="2">Option diesel HDI</td>
+<td colspan="1" rowspan="1">Non</td>
+<td colspan="1" rowspan="1">- Moteur essence<br>- Diesel non HDI</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Oui</td>
+<td colspan="1" rowspan="1">Moteur diesel HDI</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1">Surveillance de l’accélération pour l’allumage automatique des feux de détresse</td>
+<td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1"></td>
+</tr><tr valign="top"><td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1">Surveillance de la vitesse pour l’allumage automatique des feux de détresse</td>
+<td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1"></td>
+</tr><tr valign="top"><td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1">Inhibition délestage pulseur de climatisation</td>
+<td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1"></td>
+</tr><tr valign="top"><td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1">Inhibition délestage compresseur de climatisation</td>
+<td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1"></td>
+</tr><tr valign="top"><td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1">Alertes sonores</td>
+<td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1"></td>
+</tr><tr valign="top"><td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1">Durée totale avant maintenance (seuil)</td>
+<td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1"></td>
+</tr><tr valign="top"><td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1">Tours avant maintenance (seuil)</td>
+<td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1"></td>
+</tr><tr valign="top"><td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1">Seuil maintenance (Marketing)</td>
+<td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1"></td>
+</tr><tr valign="top"><td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1">Numéro table de maintenance</td>
+<td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1"></td>
+</tr><tr><td class="pied" colspan="4">(1) À télécoder selon équipement</td></tr></tbody></table>
+</div>
+<div class="cha2"><a name="LABEL41"></a><div class="sti2">6.3. Calculateurs présents</div></div>
+<div class="tableau">
+<table class="tableauAC">
+<thead><tr><th class="tete" colspan="4">Calculateurs présents</th></tr></thead>
+<tbody><tr valign="top"><td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1">Paramètres de télécodage</td>
+<td colspan="1" rowspan="1">Valeurs à télécoder</td>
+<td colspan="1" rowspan="1">Commentaires</td>
+</tr><tr valign="top"><td colspan="1" rowspan="2"></td>
+<td colspan="1" rowspan="2">Afficheur /AutoPC</td>
+<td colspan="1" rowspan="1">Absent </td>
+<td colspan="1" rowspan="1">Contrôler l’absence d’un afficheur multifonction</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Présent</td>
+<td colspan="1" rowspan="1">Contrôler la présence d’un afficheur multifonction/AutoPC</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1">Airbag centralisé</td>
+<td colspan="1" rowspan="1">Présent</td>
+<td colspan="1" rowspan="1">Contrôler la présence d’un coussin gonflable centralisé</td>
+</tr><tr valign="top"><td colspan="1" rowspan="2"></td>
+<td colspan="1" rowspan="2">Haute fréquence Japon</td>
+<td colspan="1" rowspan="1">Absent </td>
+<td colspan="1" rowspan="1">Pour les véhicules non destinés au Japon</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Présent</td>
+<td colspan="1" rowspan="1">Pour les véhicules destinés au Japon</td>
+</tr><tr valign="top"><td colspan="1" rowspan="2"></td>
+<td colspan="1" rowspan="2">Navigation</td>
+<td colspan="1" rowspan="1">Absent </td>
+<td colspan="1" rowspan="1">Contrôler l’absence du lecteur d’aide à la navigation dans le coffre du véhicule</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Présent</td>
+<td colspan="1" rowspan="1">Contrôler la présence du lecteur d’aide à la navigation dans le coffre du véhicule<br>Télécoder à "présent" les paramètres "Navigation" ; "Afficheur /AutoPC"</td>
+</tr><tr valign="top"><td colspan="1" rowspan="2"></td>
+<td colspan="1" rowspan="2">Module de commutation sous volant de direction</td>
+<td colspan="1" rowspan="1">Absent </td>
+<td colspan="1" rowspan="1">Contrôler l’absence des commandes sous volant de direction</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Présent</td>
+<td colspan="1" rowspan="1">Contrôler la présence des commandes sous volant de direction</td>
+</tr><tr valign="top"><td colspan="1" rowspan="2"></td>
+<td colspan="1" rowspan="2">Module auto-école</td>
+<td colspan="1" rowspan="1">Absent </td>
+<td colspan="1" rowspan="1">Absence du module auto-école</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Présent</td>
+<td colspan="1" rowspan="1">Présence du module auto-école</td>
+</tr><tr valign="top"><td colspan="1" rowspan="2"></td>
+<td colspan="1" rowspan="2">Autoradio ou radiotéléphone (partie autoradio)</td>
+<td colspan="1" rowspan="1">Absent </td>
+<td colspan="1" rowspan="1">Contrôler l’absence d’un autoradio RB2 PHILIPS ou RD2 CLARION ou d’un radiotéléphone RT2 CLARION</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Présent</td>
+<td colspan="1" rowspan="1">Contrôler la présence d’un autoradio RB2 PHILIPS ou RD2 CLARION ou d’un radiotéléphone RT2 CLARION</td>
+</tr><tr valign="top"><td colspan="1" rowspan="2"></td>
+<td colspan="1" rowspan="2">Capteur de pluie/luminosité</td>
+<td colspan="1" rowspan="1">Absent </td>
+<td colspan="1" rowspan="1">Contrôler l’absence des fonctions essuyage automatique et allumage automatique des feux sur le module de commutation sous volant de direction</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Présent</td>
+<td colspan="1" rowspan="1">Contrôler la présence des fonctions essuyage automatique et allumage automatique des feux sur le module de commutation sous volant de direction</td>
+</tr><tr valign="top"><td colspan="1" rowspan="2"></td>
+<td colspan="1" rowspan="2">Alarme </td>
+<td colspan="1" rowspan="1">Absente</td>
+<td colspan="1" rowspan="1">Contrôler l’absence des capteurs volumétriques</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Présente</td>
+<td colspan="1" rowspan="1">Contrôler la présence des capteurs volumétriques</td>
+</tr><tr valign="top"><td colspan="1" rowspan="2"></td>
+<td colspan="1" rowspan="2">Climatisation </td>
+<td colspan="1" rowspan="1">Absente</td>
+<td colspan="1" rowspan="1">Contrôler l’absence de climatisation ou la présence d’une climatisation manuelle</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Présente</td>
+<td colspan="1" rowspan="1">Contrôler la présence d’une climatisation tout automatique (RFTA)</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1">Module additivation gazole</td>
+<td colspan="1" rowspan="1">Absent </td>
+<td colspan="1" rowspan="1">Télécoder toujours "absent"</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1">BSI </td>
+<td colspan="1" rowspan="1">Présent</td>
+<td colspan="1" rowspan="1">Télécoder toujours "présent"</td>
+</tr><tr valign="top"><td colspan="1" rowspan="2"></td>
+<td colspan="1" rowspan="2">Aide au stationnement</td>
+<td colspan="1" rowspan="1">Absente</td>
+<td colspan="1" rowspan="2">Selon la présence de capteurs de proximité situés sur le pare-chocs arrière</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Présente</td>
+</tr><tr valign="top"><td colspan="1" rowspan="2"></td>
+<td colspan="1" rowspan="2">Chargeur CD</td>
+<td colspan="1" rowspan="1">Absent </td>
+<td colspan="1" rowspan="1">Contrôler l’absence d’un chargeur CD</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Présent</td>
+<td colspan="1" rowspan="1">Contrôler la présence d’un chargeur CD</td>
+</tr><tr valign="top"><td colspan="1" rowspan="2"></td>
+<td colspan="1" rowspan="2">Radiotéléphone (partie téléphone)</td>
+<td colspan="1" rowspan="1">Absent </td>
+<td colspan="1" rowspan="1">Contrôler l’absence d’un radiotéléphone RT2 CLARION</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Présent</td>
+<td colspan="1" rowspan="1">Contrôler la présence d’un radiotéléphone RT2 CLARION</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1">Combiné </td>
+<td colspan="1" rowspan="1">Présent</td>
+<td colspan="1" rowspan="1">Télécoder toujours "présent"</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1">Contrôle moteur </td>
+<td colspan="1" rowspan="1">Présent</td>
+<td colspan="1" rowspan="1">Télécoder toujours "présent"</td>
+</tr><tr valign="top"><td colspan="1" rowspan="2"></td>
+<td colspan="1" rowspan="2">Boîte de vitesses automatique /Boîte de vitesses manuelle pilotée </td>
+<td colspan="1" rowspan="1">Absent </td>
+<td colspan="1" rowspan="1">Contrôler la présence d’une boîte de vitesses manuelle</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Présent</td>
+<td colspan="1" rowspan="1">Contrôler la présence d’une boîte de vitesses automatique/Manuelle pilotée</td>
+</tr><tr valign="top"><td colspan="1" rowspan="2"></td>
+<td colspan="1" rowspan="2">Antiblocage de roues (ABS) / Contrôle dynamique de stabilité (ESP)</td>
+<td colspan="1" rowspan="1">Absent </td>
+<td colspan="1" rowspan="1">Contrôler l’absence du calculateur antiblocage de roues / Contrôle dynamique de stabilité </td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Présent</td>
+<td colspan="1" rowspan="1">Contrôler la présence du calculateur antiblocage de roues / Contrôle dynamique de stabilité </td>
+</tr><tr valign="top"><td colspan="1" rowspan="2"></td>
+<td colspan="1" rowspan="2"> direction assistée</td>
+<td colspan="1" rowspan="1">Absent </td>
+<td colspan="1" rowspan="1">Absence de direction assistée</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Présent</td>
+<td colspan="1" rowspan="1">Présence d’une direction assistée</td>
+</tr></tbody></table>
+</div>
+<div class="cha2"><a name="LABEL42"></a><div class="sti2">6.4. Code VIN </div></div>
+<div class="par">Renseigner le code VIN du véhicule (17 caractères).</div></div>

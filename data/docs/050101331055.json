@@ -1,0 +1,18 @@
+{
+ "ref": "050101331055",
+ "refDisplay": "0501 01 331055",
+ "title": "FIXATIONS CARTER BVM",
+ "nature": "",
+ "applicability": "BVM BE3R",
+ "typDoc": "1",
+ "css": [
+  "css/Document/pr.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1CN7",
+   "variantKey": "B0D=B0DA3&B0F=B0F2U",
+   "fctId": "FCT0017"
+  }
+ ]
+}

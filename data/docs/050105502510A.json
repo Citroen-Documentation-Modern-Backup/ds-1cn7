@@ -1,0 +1,73 @@
+{
+ "ref": "050105502510A",
+ "refDisplay": "0501 05 502510A",
+ "title": "FAISCEAU ARRIERE",
+ "nature": "",
+ "applicability": " DEPUIS OPR 08728",
+ "typDoc": "1",
+ "css": [
+  "css/Document/pr.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1CN7",
+   "variantKey": "B0D=B0DC5&B0F=B0F7P",
+   "fctId": "FCT0310"
+  },
+  {
+   "ldp": "1CN7",
+   "variantKey": "B0D=B0DC5&B0F=B0F7Q",
+   "fctId": "FCT0310"
+  },
+  {
+   "ldp": "1CN7",
+   "variantKey": "B0D=B0DC5&B0F=B0F6Q",
+   "fctId": "FCT0310"
+  },
+  {
+   "ldp": "1CN7",
+   "variantKey": "B0D=B0DC5&B0F=B0F6S",
+   "fctId": "FCT0310"
+  },
+  {
+   "ldp": "1CN7",
+   "variantKey": "B0D=B0DC5&B0F=B0F7H",
+   "fctId": "FCT0310"
+  },
+  {
+   "ldp": "1CN7",
+   "variantKey": "B0D=B0DC5&B0F=B0F7C",
+   "fctId": "FCT0310"
+  },
+  {
+   "ldp": "1CN7",
+   "variantKey": "B0D=B0DC5&B0F=B0F2X",
+   "fctId": "FCT0310"
+  },
+  {
+   "ldp": "1CN7",
+   "variantKey": "B0D=B0DC5&B0F=B0F6V",
+   "fctId": "FCT0310"
+  },
+  {
+   "ldp": "1CN7",
+   "variantKey": "B0D=B0DCE&B0F=B0F7P",
+   "fctId": "FCT0310"
+  },
+  {
+   "ldp": "1CN7",
+   "variantKey": "B0D=B0DCE&B0F=B0F6Q",
+   "fctId": "FCT0310"
+  },
+  {
+   "ldp": "1CN7",
+   "variantKey": "B0D=B0DCE&B0F=B0F7H",
+   "fctId": "FCT0310"
+  },
+  {
+   "ldp": "1CN7",
+   "variantKey": "B0D=B0DCE&B0F=B0F2X",
+   "fctId": "FCT0310"
+  }
+ ]
+}

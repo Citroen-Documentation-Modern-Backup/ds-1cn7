@@ -1,0 +1,133 @@
+{
+ "ref": "050108982820J",
+ "refDisplay": "0501 08 982820J",
+ "title": "GARNITURE DE PORTE LATERALE AV BATTANTE",
+ "nature": "",
+ "applicability": "TISSU HANOI \"PC\" JUSQU’A OPR 09549",
+ "typDoc": "1",
+ "css": [
+  "css/Document/pr.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1CN7",
+   "variantKey": "B0D=B0DA5&B0F=B0F7P",
+   "fctId": "FCT0135"
+  },
+  {
+   "ldp": "1CN7",
+   "variantKey": "B0D=B0DA5&B0F=B0F7Q",
+   "fctId": "FCT0135"
+  },
+  {
+   "ldp": "1CN7",
+   "variantKey": "B0D=B0DA5&B0F=B0F6Q",
+   "fctId": "FCT0135"
+  },
+  {
+   "ldp": "1CN7",
+   "variantKey": "B0D=B0DA5&B0F=B0F6S",
+   "fctId": "FCT0135"
+  },
+  {
+   "ldp": "1CN7",
+   "variantKey": "B0D=B0DA5&B0F=B0F7H",
+   "fctId": "FCT0135"
+  },
+  {
+   "ldp": "1CN7",
+   "variantKey": "B0D=B0DA5&B0F=B0F7C",
+   "fctId": "FCT0135"
+  },
+  {
+   "ldp": "1CN7",
+   "variantKey": "B0D=B0DA5&B0F=B0F2X",
+   "fctId": "FCT0135"
+  },
+  {
+   "ldp": "1CN7",
+   "variantKey": "B0D=B0DA5&B0F=B0F6V",
+   "fctId": "FCT0135"
+  },
+  {
+   "ldp": "1CN7",
+   "variantKey": "B0D=B0DAD&B0F=B0F7P",
+   "fctId": "FCT0135"
+  },
+  {
+   "ldp": "1CN7",
+   "variantKey": "B0D=B0DAD&B0F=B0F7Q",
+   "fctId": "FCT0135"
+  },
+  {
+   "ldp": "1CN7",
+   "variantKey": "B0D=B0DAD&B0F=B0F7H",
+   "fctId": "FCT0135"
+  },
+  {
+   "ldp": "1CN7",
+   "variantKey": "B0D=B0DAD&B0F=B0F2X",
+   "fctId": "FCT0135"
+  },
+  {
+   "ldp": "1CN7",
+   "variantKey": "B0D=B0DC5&B0F=B0F7P",
+   "fctId": "FCT0135"
+  },
+  {
+   "ldp": "1CN7",
+   "variantKey": "B0D=B0DC5&B0F=B0F7Q",
+   "fctId": "FCT0135"
+  },
+  {
+   "ldp": "1CN7",
+   "variantKey": "B0D=B0DC5&B0F=B0F6Q",
+   "fctId": "FCT0135"
+  },
+  {
+   "ldp": "1CN7",
+   "variantKey": "B0D=B0DC5&B0F=B0F6S",
+   "fctId": "FCT0135"
+  },
+  {
+   "ldp": "1CN7",
+   "variantKey": "B0D=B0DC5&B0F=B0F7H",
+   "fctId": "FCT0135"
+  },
+  {
+   "ldp": "1CN7",
+   "variantKey": "B0D=B0DC5&B0F=B0F7C",
+   "fctId": "FCT0135"
+  },
+  {
+   "ldp": "1CN7",
+   "variantKey": "B0D=B0DC5&B0F=B0F2X",
+   "fctId": "FCT0135"
+  },
+  {
+   "ldp": "1CN7",
+   "variantKey": "B0D=B0DC5&B0F=B0F6V",
+   "fctId": "FCT0135"
+  },
+  {
+   "ldp": "1CN7",
+   "variantKey": "B0D=B0DCE&B0F=B0F7P",
+   "fctId": "FCT0135"
+  },
+  {
+   "ldp": "1CN7",
+   "variantKey": "B0D=B0DCE&B0F=B0F6Q",
+   "fctId": "FCT0135"
+  },
+  {
+   "ldp": "1CN7",
+   "variantKey": "B0D=B0DCE&B0F=B0F7H",
+   "fctId": "FCT0135"
+  },
+  {
+   "ldp": "1CN7",
+   "variantKey": "B0D=B0DCE&B0F=B0F2X",
+   "fctId": "FCT0135"
+  }
+ ]
+}

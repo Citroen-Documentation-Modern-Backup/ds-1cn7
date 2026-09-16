@@ -1,0 +1,33 @@
+{
+ "ref": "050104451505",
+ "refDisplay": "0501 04 451505",
+ "title": "FREINS ARRIERE TAMBOUR CYLINDRE SEGMENTS",
+ "nature": "",
+ "applicability": "",
+ "typDoc": "1",
+ "css": [
+  "css/Document/pr.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1CN7",
+   "variantKey": "B0D=B0DA3&B0F=B0F7H",
+   "fctId": "FCT0041"
+  },
+  {
+   "ldp": "1CN7",
+   "variantKey": "B0D=B0DA5&B0F=B0F7H",
+   "fctId": "FCT0041"
+  },
+  {
+   "ldp": "1CN7",
+   "variantKey": "B0D=B0DAE&B0F=B0F7H",
+   "fctId": "FCT0041"
+  },
+  {
+   "ldp": "1CN7",
+   "variantKey": "B0D=B0DAD&B0F=B0F7H",
+   "fctId": "FCT0041"
+  }
+ ]
+}

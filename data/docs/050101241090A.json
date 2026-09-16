@@ -1,0 +1,28 @@
+{
+ "ref": "050101241090A",
+ "refDisplay": "0501 01 241090A",
+ "title": "MOTOVENTILATEUR BUSE CONDUIT D’AIR",
+ "nature": "",
+ "applicability": "1 VENTILATEUR 3 VITESSES 420W",
+ "typDoc": "1",
+ "css": [
+  "css/Document/pr.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1CN7",
+   "variantKey": "B0D=B0DA3&B0F=B0F7C",
+   "fctId": "FCT0009"
+  },
+  {
+   "ldp": "1CN7",
+   "variantKey": "B0D=B0DA5&B0F=B0F7C",
+   "fctId": "FCT0009"
+  },
+  {
+   "ldp": "1CN7",
+   "variantKey": "B0D=B0DC5&B0F=B0F7C",
+   "fctId": "FCT0009"
+  }
+ ]
+}

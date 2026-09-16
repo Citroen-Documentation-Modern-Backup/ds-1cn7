@@ -1,0 +1,28 @@
+{
+ "ref": "050101121020M",
+ "refDisplay": "0501 01 121020M",
+ "title": "VILEBREQUIN",
+ "nature": "",
+ "applicability": "BVA DEPUIS MOTEUR 0961750",
+ "typDoc": "1",
+ "css": [
+  "css/Document/pr.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1CN7",
+   "variantKey": "B0D=B0DA3&B0F=B0F6V",
+   "fctId": "FCT0005"
+  },
+  {
+   "ldp": "1CN7",
+   "variantKey": "B0D=B0DA5&B0F=B0F6V",
+   "fctId": "FCT0005"
+  },
+  {
+   "ldp": "1CN7",
+   "variantKey": "B0D=B0DC5&B0F=B0F6V",
+   "fctId": "FCT0005"
+  }
+ ]
+}

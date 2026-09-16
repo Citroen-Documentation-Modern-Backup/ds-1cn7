@@ -1,0 +1,18 @@
+{
+ "ref": "050104451605",
+ "refDisplay": "0501 04 451605",
+ "title": "FREINS ARRIERE DISQUE ETRIER PLAQUETTES",
+ "nature": "",
+ "applicability": "",
+ "typDoc": "1",
+ "css": [
+  "css/Document/pr.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1CN7",
+   "variantKey": "B0D=B0DA3&B0F=B0F2U",
+   "fctId": "FCT0041"
+  }
+ ]
+}

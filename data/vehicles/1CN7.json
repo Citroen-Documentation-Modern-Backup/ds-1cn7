@@ -1,0 +1,383 @@
+{
+ "ldp": "1CN7",
+ "label": "XSARA II",
+ "selectors": [
+  {
+   "id": "B0D",
+   "order": 0,
+   "title": "Silhouette",
+   "selection": "",
+   "values": [
+    {
+     "val": "B0DA3",
+     "lib": "BERLINE 3PTES"
+    },
+    {
+     "val": "B0DA5",
+     "lib": "BERLINE 5PTES"
+    },
+    {
+     "val": "B0DAE",
+     "lib": "BERLINE ENTREPRISE 3PTES"
+    },
+    {
+     "val": "B0DAD",
+     "lib": "BERLINE ENTREPRISE 5 PORTES"
+    },
+    {
+     "val": "B0DC5",
+     "lib": "BREAK 5PTES"
+    },
+    {
+     "val": "B0DCE",
+     "lib": "BREAK ENTREPRISE"
+    }
+   ],
+   "optional": false
+  },
+  {
+   "id": "B0F",
+   "order": 1,
+   "title": "Moteur",
+   "selection": "",
+   "values": [
+    {
+     "val": "B0F7P",
+     "lib": "1.4 HDi 70"
+    },
+    {
+     "val": "B0F7Q",
+     "lib": "1.4 HDi 90"
+    },
+    {
+     "val": "B0F6Q",
+     "lib": "1.4 i 75 (TU3JP)"
+    },
+    {
+     "val": "B0F6S",
+     "lib": "1.6 i 16v 110 (TU5JP4)"
+    },
+    {
+     "val": "B0F7H",
+     "lib": "1.9 D 71 (DW8B)"
+    },
+    {
+     "val": "B0F7C",
+     "lib": "2.0 HDi 110 (DW10ATED)"
+    },
+    {
+     "val": "B0F2X",
+     "lib": "2.0 HDi 90"
+    },
+    {
+     "val": "B0F6V",
+     "lib": "2.0 i 16v 138"
+    },
+    {
+     "val": "B0F2U",
+     "lib": "2.0 i 16v 180"
+    }
+   ],
+   "optional": false
+  }
+ ],
+ "optional": [],
+ "variants": [
+  {
+   "key": "B0D=B0DA3&B0F=B0F7P",
+   "selections": {
+    "B0D": "B0DA3",
+    "B0F": "B0F7P"
+   },
+   "label": "BERLINE 3PTES · 1.4 HDi 70"
+  },
+  {
+   "key": "B0D=B0DA3&B0F=B0F7Q",
+   "selections": {
+    "B0D": "B0DA3",
+    "B0F": "B0F7Q"
+   },
+   "label": "BERLINE 3PTES · 1.4 HDi 90"
+  },
+  {
+   "key": "B0D=B0DA3&B0F=B0F6Q",
+   "selections": {
+    "B0D": "B0DA3",
+    "B0F": "B0F6Q"
+   },
+   "label": "BERLINE 3PTES · 1.4 i 75 (TU3JP)"
+  },
+  {
+   "key": "B0D=B0DA3&B0F=B0F6S",
+   "selections": {
+    "B0D": "B0DA3",
+    "B0F": "B0F6S"
+   },
+   "label": "BERLINE 3PTES · 1.6 i 16v 110 (TU5JP4)"
+  },
+  {
+   "key": "B0D=B0DA3&B0F=B0F7H",
+   "selections": {
+    "B0D": "B0DA3",
+    "B0F": "B0F7H"
+   },
+   "label": "BERLINE 3PTES · 1.9 D 71 (DW8B)"
+  },
+  {
+   "key": "B0D=B0DA3&B0F=B0F7C",
+   "selections": {
+    "B0D": "B0DA3",
+    "B0F": "B0F7C"
+   },
+   "label": "BERLINE 3PTES · 2.0 HDi 110 (DW10ATED)"
+  },
+  {
+   "key": "B0D=B0DA3&B0F=B0F2X",
+   "selections": {
+    "B0D": "B0DA3",
+    "B0F": "B0F2X"
+   },
+   "label": "BERLINE 3PTES · 2.0 HDi 90"
+  },
+  {
+   "key": "B0D=B0DA3&B0F=B0F6V",
+   "selections": {
+    "B0D": "B0DA3",
+    "B0F": "B0F6V"
+   },
+   "label": "BERLINE 3PTES · 2.0 i 16v 138"
+  },
+  {
+   "key": "B0D=B0DA3&B0F=B0F2U",
+   "selections": {
+    "B0D": "B0DA3",
+    "B0F": "B0F2U"
+   },
+   "label": "BERLINE 3PTES · 2.0 i 16v 180"
+  },
+  {
+   "key": "B0D=B0DA5&B0F=B0F7P",
+   "selections": {
+    "B0D": "B0DA5",
+    "B0F": "B0F7P"
+   },
+   "label": "BERLINE 5PTES · 1.4 HDi 70"
+  },
+  {
+   "key": "B0D=B0DA5&B0F=B0F7Q",
+   "selections": {
+    "B0D": "B0DA5",
+    "B0F": "B0F7Q"
+   },
+   "label": "BERLINE 5PTES · 1.4 HDi 90"
+  },
+  {
+   "key": "B0D=B0DA5&B0F=B0F6Q",
+   "selections": {
+    "B0D": "B0DA5",
+    "B0F": "B0F6Q"
+   },
+   "label": "BERLINE 5PTES · 1.4 i 75 (TU3JP)"
+  },
+  {
+   "key": "B0D=B0DA5&B0F=B0F6S",
+   "selections": {
+    "B0D": "B0DA5",
+    "B0F": "B0F6S"
+   },
+   "label": "BERLINE 5PTES · 1.6 i 16v 110 (TU5JP4)"
+  },
+  {
+   "key": "B0D=B0DA5&B0F=B0F7H",
+   "selections": {
+    "B0D": "B0DA5",
+    "B0F": "B0F7H"
+   },
+   "label": "BERLINE 5PTES · 1.9 D 71 (DW8B)"
+  },
+  {
+   "key": "B0D=B0DA5&B0F=B0F7C",
+   "selections": {
+    "B0D": "B0DA5",
+    "B0F": "B0F7C"
+   },
+   "label": "BERLINE 5PTES · 2.0 HDi 110 (DW10ATED)"
+  },
+  {
+   "key": "B0D=B0DA5&B0F=B0F2X",
+   "selections": {
+    "B0D": "B0DA5",
+    "B0F": "B0F2X"
+   },
+   "label": "BERLINE 5PTES · 2.0 HDi 90"
+  },
+  {
+   "key": "B0D=B0DA5&B0F=B0F6V",
+   "selections": {
+    "B0D": "B0DA5",
+    "B0F": "B0F6V"
+   },
+   "label": "BERLINE 5PTES · 2.0 i 16v 138"
+  },
+  {
+   "key": "B0D=B0DAE&B0F=B0F7P",
+   "selections": {
+    "B0D": "B0DAE",
+    "B0F": "B0F7P"
+   },
+   "label": "BERLINE ENTREPRISE 3PTES · 1.4 HDi 70"
+  },
+  {
+   "key": "B0D=B0DAE&B0F=B0F6Q",
+   "selections": {
+    "B0D": "B0DAE",
+    "B0F": "B0F6Q"
+   },
+   "label": "BERLINE ENTREPRISE 3PTES · 1.4 i 75 (TU3JP)"
+  },
+  {
+   "key": "B0D=B0DAE&B0F=B0F7H",
+   "selections": {
+    "B0D": "B0DAE",
+    "B0F": "B0F7H"
+   },
+   "label": "BERLINE ENTREPRISE 3PTES · 1.9 D 71 (DW8B)"
+  },
+  {
+   "key": "B0D=B0DAE&B0F=B0F2X",
+   "selections": {
+    "B0D": "B0DAE",
+    "B0F": "B0F2X"
+   },
+   "label": "BERLINE ENTREPRISE 3PTES · 2.0 HDi 90"
+  },
+  {
+   "key": "B0D=B0DAD&B0F=B0F7P",
+   "selections": {
+    "B0D": "B0DAD",
+    "B0F": "B0F7P"
+   },
+   "label": "BERLINE ENTREPRISE 5 PORTES · 1.4 HDi 70"
+  },
+  {
+   "key": "B0D=B0DAD&B0F=B0F7Q",
+   "selections": {
+    "B0D": "B0DAD",
+    "B0F": "B0F7Q"
+   },
+   "label": "BERLINE ENTREPRISE 5 PORTES · 1.4 HDi 90"
+  },
+  {
+   "key": "B0D=B0DAD&B0F=B0F7H",
+   "selections": {
+    "B0D": "B0DAD",
+    "B0F": "B0F7H"
+   },
+   "label": "BERLINE ENTREPRISE 5 PORTES · 1.9 D 71 (DW8B)"
+  },
+  {
+   "key": "B0D=B0DAD&B0F=B0F2X",
+   "selections": {
+    "B0D": "B0DAD",
+    "B0F": "B0F2X"
+   },
+   "label": "BERLINE ENTREPRISE 5 PORTES · 2.0 HDi 90"
+  },
+  {
+   "key": "B0D=B0DC5&B0F=B0F7P",
+   "selections": {
+    "B0D": "B0DC5",
+    "B0F": "B0F7P"
+   },
+   "label": "BREAK 5PTES · 1.4 HDi 70"
+  },
+  {
+   "key": "B0D=B0DC5&B0F=B0F7Q",
+   "selections": {
+    "B0D": "B0DC5",
+    "B0F": "B0F7Q"
+   },
+   "label": "BREAK 5PTES · 1.4 HDi 90"
+  },
+  {
+   "key": "B0D=B0DC5&B0F=B0F6Q",
+   "selections": {
+    "B0D": "B0DC5",
+    "B0F": "B0F6Q"
+   },
+   "label": "BREAK 5PTES · 1.4 i 75 (TU3JP)"
+  },
+  {
+   "key": "B0D=B0DC5&B0F=B0F6S",
+   "selections": {
+    "B0D": "B0DC5",
+    "B0F": "B0F6S"
+   },
+   "label": "BREAK 5PTES · 1.6 i 16v 110 (TU5JP4)"
+  },
+  {
+   "key": "B0D=B0DC5&B0F=B0F7H",
+   "selections": {
+    "B0D": "B0DC5",
+    "B0F": "B0F7H"
+   },
+   "label": "BREAK 5PTES · 1.9 D 71 (DW8B)"
+  },
+  {
+   "key": "B0D=B0DC5&B0F=B0F7C",
+   "selections": {
+    "B0D": "B0DC5",
+    "B0F": "B0F7C"
+   },
+   "label": "BREAK 5PTES · 2.0 HDi 110 (DW10ATED)"
+  },
+  {
+   "key": "B0D=B0DC5&B0F=B0F2X",
+   "selections": {
+    "B0D": "B0DC5",
+    "B0F": "B0F2X"
+   },
+   "label": "BREAK 5PTES · 2.0 HDi 90"
+  },
+  {
+   "key": "B0D=B0DC5&B0F=B0F6V",
+   "selections": {
+    "B0D": "B0DC5",
+    "B0F": "B0F6V"
+   },
+   "label": "BREAK 5PTES · 2.0 i 16v 138"
+  },
+  {
+   "key": "B0D=B0DCE&B0F=B0F7P",
+   "selections": {
+    "B0D": "B0DCE",
+    "B0F": "B0F7P"
+   },
+   "label": "BREAK ENTREPRISE · 1.4 HDi 70"
+  },
+  {
+   "key": "B0D=B0DCE&B0F=B0F6Q",
+   "selections": {
+    "B0D": "B0DCE",
+    "B0F": "B0F6Q"
+   },
+   "label": "BREAK ENTREPRISE · 1.4 i 75 (TU3JP)"
+  },
+  {
+   "key": "B0D=B0DCE&B0F=B0F7H",
+   "selections": {
+    "B0D": "B0DCE",
+    "B0F": "B0F7H"
+   },
+   "label": "BREAK ENTREPRISE · 1.9 D 71 (DW8B)"
+  },
+  {
+   "key": "B0D=B0DCE&B0F=B0F2X",
+   "selections": {
+    "B0D": "B0DCE",
+    "B0F": "B0F2X"
+   },
+   "label": "BREAK ENTREPRISE · 2.0 HDi 90"
+  }
+ ]
+}

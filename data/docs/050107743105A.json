@@ -1,0 +1,18 @@
+{
+ "ref": "050107743105A",
+ "refDisplay": "0501 07 743105A",
+ "title": "PROTECTION SOUS CAISSE",
+ "nature": "",
+ "applicability": "",
+ "typDoc": "1",
+ "css": [
+  "css/Document/pr.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1CN7",
+   "variantKey": "B0D=B0DA3&B0F=B0F2U",
+   "fctId": "FCT0112"
+  }
+ ]
+}

@@ -1,0 +1,18 @@
+{
+ "ref": "050103434430",
+ "refDisplay": "0501 03 434430",
+ "title": "BRAS BUTEES MOYEUX ROULEMENTS ARRIERE",
+ "nature": "",
+ "applicability": "DISQUES AR ET ANTI-BLOCAGE ROUE ET SUSPENSION NORMALE",
+ "typDoc": "1",
+ "css": [
+  "css/Document/pr.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1CN7",
+   "variantKey": "B0D=B0DA3&B0F=B0F2U",
+   "fctId": "FCT0030"
+  }
+ ]
+}

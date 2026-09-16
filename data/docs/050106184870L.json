@@ -1,0 +1,23 @@
+{
+ "ref": "050106184870L",
+ "refDisplay": "0501 06 184870L",
+ "title": "ECHAPPEMENT INTERMEDIAIRE ET AR",
+ "nature": "",
+ "applicability": " DEPUIS OPR 09170",
+ "typDoc": "1",
+ "css": [
+  "css/Document/pr.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1CN7",
+   "variantKey": "B0D=B0DA3&B0F=B0F7C",
+   "fctId": "FCT0011"
+  },
+  {
+   "ldp": "1CN7",
+   "variantKey": "B0D=B0DA5&B0F=B0F7C",
+   "fctId": "FCT0011"
+  }
+ ]
+}

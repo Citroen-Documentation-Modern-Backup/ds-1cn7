@@ -1,0 +1,228 @@
+<div id="title" class="section_titre"><table class="refDoc"><tbody><tr><td colspan="2" class="references">D4EB1HP0</td><td class="title">Généralités : Multiplexage </td></tr></tbody></table></div><div id="appl" class="section_appl">BOITIER DE SERVITUDE (BSI) COMM 2000 DEPUIS OPR 9002</div><div class="section_corps" id="content"><div class="cha1"><a name="LABEL1"></a><div class="sti1">1. Évolution </div></div>
+<div class="par">La nouvelle XSARA possède une nouvelle architecture électronique avec l’apparition d’un nouveau réseau : VAN CAR 1 et d’un nouveau BSI variante C.</div><div class="tli">La communication entre les différents calculateurs du véhicule est réalisée sur les 4 réseaux multiplexés suivants : 
+<ul>
+<li>Réseau CAN </li>
+<li>Réseau VAN Confort </li>
+<li>Réseau VAN CAR 2</li>
+<li>Réseau VAN CAR 1&nbsp;(nouveau réseau)</li>
+</ul>
+</div>
+<div class="cha1"><a name="LABEL2"></a><div class="sti1">2. Présentation</div></div>
+<div class="par">Le multiplexage consiste à faire circuler plusieurs informations numériques entre divers équipements électriques, sur un seul canal de transmission matérialisé par 2 fils.</div><div class="cha1"><a name="LABEL3"></a><div class="sti1">3. Définition du multiplexage</div></div>
+<div class="par">Le multiplexage est un mode de mise en action d’équipements électriques, nécessitant une architecture adaptée.</div><div class="par">Une architecture multiplexée se compose d’un circuit unique qui relie tous les calculateurs : Le bus.</div><div class="par">Tous les messages envoyés sur ce circuit comportent une partie "information" ou "commande" et une partie identification du destinataire.</div><div class="par">Le multiplexage utilise deux protocoles de communication : Le VAN, vehicle area network, et le CAN, controller area network.</div><div class="cha1"><a name="LABEL4"></a><div class="sti1">4. Intérêt du multiplexage</div></div>
+<div class="tli">L’utilisation du multiplexage permet : 
+<ul>
+<li>Une simplification des faisceaux électriques</li>
+<li>Un enrichissement du nombre de fonctions&nbsp;(à nombre de fils équivalent)</li>
+</ul>
+</div>
+<div class="cha1"><a name="LABEL5"></a><div class="sti1">5. Architecture des réseaux multiplexés</div></div>
+<div class="cha2"><a name="LABEL10"></a><div class="sti2">5.1. Généralités</div></div>
+<div class="par">Le véhicule est équipé de 4 réseaux de multiplexage, qui fonctionnent chacun dans un environnement bien précis. Les réseaux multiplexés sont gérés par un calculateur central, qui est le BSI&nbsp;(boîtier de servitude intelligent).</div><div class="cha2"><a name="LABEL11"></a><div class="sti2">5.2. Réseau CAN </div></div>
+<div class="cha3"><a name="LABEL15"></a><div class="sti3">5.2.1. Particularités du réseau CAN</div></div>
+<div class="par">Le réseau CAN relie les calculateurs du groupe motopropulseur, comme le calculateur moteur et le calculateur de boîte de vitesses automatique.</div><div class="par">La rapidité de traitement des informations du réseau CAN est un gage de sécurité&nbsp;(taux de transfert de 250 kbits/s).</div><div class="rem"><div class="not"><span class="maj">NOTA</span> : CAN signifie en anglais "controller area network". </div></div>
+<div class="cha3"><a name="LABEL16"></a><div class="sti3">5.2.2. Architecture du réseau CAN</div></div>
+<div id="d4ep05hd_1_div"><div class="legende"></div><table class="imgTable"><tbody><tr><td class="imgTable" colspan="2"><div><img src="img/AC/img/inf_inc/hd/d4ep/d4ep05hd.avif" class="image" height="360" width="615" id="d4ep05hd_1"></div></td></tr><tr><td class="imgTable"><span class="fig">Figure : <span class="img_numfich">d4ep05hd</span></span></td><td align="right" class="imgTable"><span class="imgNavbar"><a href="img/AC/img/inf_inc/hd/d4ep/d4ep05hd.avif" data-figure="1"><img id="d4ep05hd_1_FullScreen" border="0" width="20" height="20" alt="Afficher l'image en plein écran" src="img/images/Document/fullscreen.avif"></a></span></td></tr></tbody></table></div><div class="tableau">
+<table class="tableauAC">
+<thead><tr><th class="tete" colspan="2">Légende</th></tr></thead>
+<tbody><tr valign="top"><td colspan="1" rowspan="1">BSI </td>
+<td colspan="1" rowspan="1">Boîtier de servitude intelligent </td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">1320</td>
+<td colspan="1" rowspan="1">Calculateur moteur </td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">1630</td>
+<td colspan="1" rowspan="1">Calculateur de boîte de vitesses automatique </td>
+</tr></tbody></table>
+</div>
+<div class="cha2"><a name="LABEL12"></a><div class="sti2">5.3. Réseau VAN CARROSSERIE 2</div></div>
+<div class="cha3"><a name="LABEL17"></a><div class="sti3">5.3.1. Particularités du réseau VAN carrosserie 2</div></div>
+<div class="par">Le réseau VAN Carrosserie 2 relie le BSI et l’alarme antieffraction.</div><div class="rem"><div class="not"><span class="maj">NOTA</span> : Si c’est une voiture d’auto-école le module auto-école du passager est connecté sur ce réseau. </div></div>
+<div class="par">Le taux de transfert de ce bus est de 62,5 kbits/s.</div><div class="cha3"><a name="LABEL18"></a><div class="sti3">5.3.2. Architecture du réseau VAN Carrosserie 2</div></div>
+<div id="d4ep05jd_2_div"><div class="legende"></div><table class="imgTable"><tbody><tr><td class="imgTable" colspan="2"><div><img src="img/AC/img/inf_inc/jd/d4ep/d4ep05jd.avif" class="image" height="360" width="615" id="d4ep05jd_2"></div></td></tr><tr><td class="imgTable"><span class="fig">Figure : <span class="img_numfich">d4ep05jd</span></span></td><td align="right" class="imgTable"><span class="imgNavbar"><a href="img/AC/img/inf_inc/jd/d4ep/d4ep05jd.avif" data-figure="1"><img id="d4ep05jd_2_FullScreen" border="0" width="20" height="20" alt="Afficher l'image en plein écran" src="img/images/Document/fullscreen.avif"></a></span></td></tr></tbody></table></div><div class="tableau">
+<table class="tableauAC">
+<thead><tr><th class="tete" colspan="2">Légende</th></tr></thead>
+<tbody><tr valign="top"><td colspan="1" rowspan="1">BSI </td>
+<td colspan="1" rowspan="1">Boîtier de servitude intelligent </td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">8600</td>
+<td colspan="1" rowspan="1">Calculateur d’alarme antieffraction</td>
+</tr></tbody></table>
+</div>
+<div class="cha2"><a name="LABEL13"></a><div class="sti2">5.4. Réseau VAN CARROSSERIE 1</div></div>
+<div class="cha3"><a name="LABEL19"></a><div class="sti3">5.4.1. Particularités du réseau VAN carrosserie 1</div></div>
+<div class="par">Le réseau VAN carrosserie 1 est qualifié de réseau de sécurité.</div><div class="par">Le BSI envoie des demandes à chaque calculateur relié au réseau VAN CARROSSERIE 1 (taux de transfert de 62,5 kbits/s).</div><div class="par">Le réseau VAN CAR 1 retransmet les actions de l’utilisateur au BSI par l’électronique du module de commutation sous le volant de direction appelé Com 2000 (appellation commerciale) ou CV00 (appellation électronique).</div><div class="cha3"><a name="LABEL20"></a><div class="sti3">5.4.2. Architecture du réseau VAN Carrosserie 1</div></div>
+<div id="d4ep05kd_3_div"><div class="legende"></div><table class="imgTable"><tbody><tr><td class="imgTable" colspan="2"><div><img src="img/AC/img/inf_inc/kd/d4ep/d4ep05kd.avif" class="image" height="360" width="615" id="d4ep05kd_3"></div></td></tr><tr><td class="imgTable"><span class="fig">Figure : <span class="img_numfich">d4ep05kd</span></span></td><td align="right" class="imgTable"><span class="imgNavbar"><a href="img/AC/img/inf_inc/kd/d4ep/d4ep05kd.avif" data-figure="1"><img id="d4ep05kd_3_FullScreen" border="0" width="20" height="20" alt="Afficher l'image en plein écran" src="img/images/Document/fullscreen.avif"></a></span></td></tr></tbody></table></div><div class="tableau">
+<table class="tableauAC">
+<thead><tr><th class="tete" colspan="2">Légende</th></tr></thead>
+<tbody><tr valign="top"><td colspan="1" rowspan="1">BSI </td>
+<td colspan="1" rowspan="1">Boîtier de servitude intelligent </td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">CV00</td>
+<td colspan="1" rowspan="1">Module de commutation sous volant de direction</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">BSM</td>
+<td colspan="1" rowspan="1">Boîtier de servitude moteur multiplexé&nbsp;(BSM 2000)</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">6570</td>
+<td colspan="1" rowspan="1">Calculateur d’airbag</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">5001</td>
+<td colspan="1" rowspan="1">Capteur de pluie</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">8038</td>
+<td colspan="1" rowspan="1">Capteur d’ensoleillement</td>
+</tr></tbody></table>
+</div>
+<div class="cha2"><a name="LABEL14"></a><div class="sti2">5.5. Réseau VAN Confort </div></div>
+<div class="cha3"><a name="LABEL21"></a><div class="sti3">5.5.1. Particularités du réseau VAN CONFORT</div></div>
+<div class="par">Le réseau VAN CONFORT réalise l’interface "homme/machine".</div><div class="par">Le réseau VAN CONFORT gère par exemple les fonctions de confort, d’informations au conducteur et d’aide à la conduite.</div><div class="par">Les calculateurs reliés au réseau VAN CONFORT acquièrent les informations provenant du groupe motopropulseur (par l’intermédiaire du BSI) pour renseigner le conducteur sur l’état du véhicule.</div><div class="par">Les informations diffusées sont récupérées par les calculateurs qui en ont l’utilité&nbsp;(taux de transfert de 125 kbits/s).</div><div class="cha3"><a name="LABEL22"></a><div class="sti3">5.5.2. Architecture du réseau VAN Confort</div></div>
+<div id="d4ep05ld_4_div"><div class="legende"></div><table class="imgTable"><tbody><tr><td class="imgTable" colspan="2"><div><img src="img/AC/img/inf_inc/ld/d4ep/d4ep05ld.avif" class="image" height="360" width="615" id="d4ep05ld_4"></div></td></tr><tr><td class="imgTable"><span class="fig">Figure : <span class="img_numfich">d4ep05ld</span></span></td><td align="right" class="imgTable"><span class="imgNavbar"><a href="img/AC/img/inf_inc/ld/d4ep/d4ep05ld.avif" data-figure="1"><img id="d4ep05ld_4_FullScreen" border="0" width="20" height="20" alt="Afficher l'image en plein écran" src="img/images/Document/fullscreen.avif"></a></span></td></tr></tbody></table></div><div class="tableau">
+<table class="tableauAC">
+<thead><tr><th class="tete" colspan="2">Légende</th></tr></thead>
+<tbody><tr valign="top"><td colspan="1" rowspan="1">BSI </td>
+<td colspan="1" rowspan="1">Boîtier de servitude intelligent </td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">0004</td>
+<td colspan="1" rowspan="1">Combiné </td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">7215</td>
+<td colspan="1" rowspan="1">Écran multifonction </td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">7500</td>
+<td colspan="1" rowspan="1">Calculateur d’aide au stationnement</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">8410</td>
+<td colspan="1" rowspan="1">Autoradio RD2, RB2 ou RT2</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">8500</td>
+<td colspan="1" rowspan="1">Calculateur de navigation</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">8080</td>
+<td colspan="1" rowspan="1">CALCULATEUR DE CLIMATISATION</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">8415</td>
+<td colspan="1" rowspan="1">Changeur CD</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">A</td>
+<td colspan="1" rowspan="1">Auto PC</td>
+</tr></tbody></table>
+</div>
+<div class="cha1"><a name="LABEL6"></a><div class="sti1">6. Architecture générale des calculateurs multiplexés</div></div>
+<div class="tableau">
+<table class="tableauAC">
+<tbody><tr valign="top"><td colspan="1" rowspan="1">Boîtiers multiplexés</td>
+<td colspan="1" rowspan="1">VAN CAR1</td>
+<td colspan="1" rowspan="1">VAN CAR2</td>
+<td colspan="1" rowspan="1">VAN Confort</td>
+<td colspan="1" rowspan="1">CAN </td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">BSM 2000</td>
+<td colspan="1" rowspan="1">X</td>
+<td colspan="1" rowspan="1">-</td>
+<td colspan="1" rowspan="1">-</td>
+<td colspan="1" rowspan="1">-</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Airbag centralisé</td>
+<td colspan="1" rowspan="1">X</td>
+<td colspan="1" rowspan="1">-</td>
+<td colspan="1" rowspan="1">-</td>
+<td colspan="1" rowspan="1">-</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Capteur de pluie et capteur d’ensoleillement</td>
+<td colspan="1" rowspan="1">X</td>
+<td colspan="1" rowspan="1">-</td>
+<td colspan="1" rowspan="1">-</td>
+<td colspan="1" rowspan="1">-</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">COM 2000</td>
+<td colspan="1" rowspan="1">X</td>
+<td colspan="1" rowspan="1">-</td>
+<td colspan="1" rowspan="1">-</td>
+<td colspan="1" rowspan="1">-</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Alarme </td>
+<td colspan="1" rowspan="1">-</td>
+<td colspan="1" rowspan="1">X</td>
+<td colspan="1" rowspan="1">-</td>
+<td colspan="1" rowspan="1">-</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Module auto-école</td>
+<td colspan="1" rowspan="1">-</td>
+<td colspan="1" rowspan="1">X</td>
+<td colspan="1" rowspan="1">-</td>
+<td colspan="1" rowspan="1">-</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">CD</td>
+<td colspan="1" rowspan="1">-</td>
+<td colspan="1" rowspan="1">-</td>
+<td colspan="1" rowspan="1">X</td>
+<td colspan="1" rowspan="1">-</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Aide au stationnement (AAS)</td>
+<td colspan="1" rowspan="1">-</td>
+<td colspan="1" rowspan="1">-</td>
+<td colspan="1" rowspan="1">X</td>
+<td colspan="1" rowspan="1">-</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Combiné </td>
+<td colspan="1" rowspan="1">-</td>
+<td colspan="1" rowspan="1">-</td>
+<td colspan="1" rowspan="1">X</td>
+<td colspan="1" rowspan="1">-</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Autoradio </td>
+<td colspan="1" rowspan="1">-</td>
+<td colspan="1" rowspan="1">-</td>
+<td colspan="1" rowspan="1">X</td>
+<td colspan="1" rowspan="1">-</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Écran multifonction &nbsp;A, B ou C</td>
+<td colspan="1" rowspan="1">-</td>
+<td colspan="1" rowspan="1">-</td>
+<td colspan="1" rowspan="1">X</td>
+<td colspan="1" rowspan="1">-</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Aide à la navigation</td>
+<td colspan="1" rowspan="1">-</td>
+<td colspan="1" rowspan="1">-</td>
+<td colspan="1" rowspan="1">X</td>
+<td colspan="1" rowspan="1">-</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Auto PC</td>
+<td colspan="1" rowspan="1">X</td>
+<td colspan="1" rowspan="1">-</td>
+<td colspan="1" rowspan="1">X</td>
+<td colspan="1" rowspan="1">-</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Climatisation </td>
+<td colspan="1" rowspan="1">-</td>
+<td colspan="1" rowspan="1">-</td>
+<td colspan="1" rowspan="1">X</td>
+<td colspan="1" rowspan="1">-</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Calculateur moteur </td>
+<td colspan="1" rowspan="1">-</td>
+<td colspan="1" rowspan="1">-</td>
+<td colspan="1" rowspan="1">-</td>
+<td colspan="1" rowspan="1">X</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1"> BVA</td>
+<td colspan="1" rowspan="1">-</td>
+<td colspan="1" rowspan="1">-</td>
+<td colspan="1" rowspan="1">-</td>
+<td colspan="1" rowspan="1">X</td>
+</tr></tbody></table>
+</div>
+<div class="cha1"><a name="LABEL7"></a><div class="sti1">7. Boîtier de servitude intelligent &nbsp;(BSI)</div></div>
+<div id="d4ep042d_5_div"><div class="legende"></div><table class="imgTable"><tbody><tr><td class="imgTable" colspan="2"><div><img src="img/AC/img/inf_inc/2d/d4ep/d4ep042d.avif" class="image" height="360" width="615" id="d4ep042d_5"></div></td></tr><tr><td class="imgTable"><span class="fig">Figure : <span class="img_numfich">d4ep042d</span></span></td><td align="right" class="imgTable"><span class="imgNavbar"><a href="img/AC/img/inf_inc/2d/d4ep/d4ep042d.avif" data-figure="1"><img id="d4ep042d_5_FullScreen" border="0" width="20" height="20" alt="Afficher l'image en plein écran" src="img/images/Document/fullscreen.avif"></a></span></td></tr></tbody></table></div><div class="tli">Le boîtier de servitude intelligent (BSI) est un calculateur qui intègre : 
+<ul>
+<li>Une électronique d’interface (relais, fusibles, prise diagnostic)</li>
+<li>Une électronique de contrôle : Le BSI gère la communication entre les calculateurs et le transfert d’informations entre les réseaux</li>
+<li>Une électronique de calcul : Le BSI gère de manière autonome des fonctions de base</li>
+<li>Un programme qui permet de contrôler l’ensemble des fonctions, d’effectuer du diagnostic et du télécodage</li>
+<li>Une mémoire non volatile pour la protection antivol (code BSI, code VIN du véhicule, code des clés, code de la télécommande, identification de l’autoradio, code diagnostic)</li>
+</ul>
+</div>
+<div class="par">Le code diagnostic, accessible par les outils de diagnostic, permet de connaître précisément la nature des calculateurs montés sur le véhicule.</div><div class="par">Le BSI  contribue à la gestion de l’énergie en commandant des modes de consommation réduite pour lui et les autres calculateurs multiplexés.</div><div class="cha1"><a name="LABEL8"></a><div class="sti1">8. Module de commutation sous volant de direction&nbsp;(Com 2000)</div></div>
+<div id="d4ap00zd_6_div"><div class="legende"></div><table class="imgTable"><tbody><tr><td class="imgTable" colspan="2"><div><img src="img/AC/img/inf_inc/zd/d4ap/d4ap00zd.avif" class="image" height="360" width="615" id="d4ap00zd_6"></div></td></tr><tr><td class="imgTable"><span class="fig">Figure : <span class="img_numfich">d4ap00zd</span></span></td><td align="right" class="imgTable"><span class="imgNavbar"><a href="img/AC/img/inf_inc/zd/d4ap/d4ap00zd.avif" data-figure="1"><img id="d4ap00zd_6_FullScreen" border="0" width="20" height="20" alt="Afficher l'image en plein écran" src="img/images/Document/fullscreen.avif"></a></span></td></tr></tbody></table></div><div class="tli">Le module de commutation sous volant de direction est un boîtier monobloc qui regroupe les éléments suivants : 
+<ul>
+<li>Le commutateur d’éclairage  (1)</li>
+<li>Le support combinateur  (2)</li>
+<li>Le contacteur  tournant (3)</li>
+<li>Le commutateur d’essuyage  (4)</li>
+<li>La commande de système audio  (5) (selon version)</li>
+<li>Le commutateur de régulation de vitesse  (6) (non présent sur XSARA 2 COM 2000)</li>
+</ul>
+</div>
+<div class="par">Le module de commutation sous volant de direction effectue l’interface homme/machine pour les commandes de radio, de régulation de vitesse, d’essuyage et d’éclairage.</div><div class="par">Le module de commutation sous volant de direction retransmet au BSI les actions de l’utilisateur via le réseau multiplexé VAN CAR 1.</div><div class="tli">Le module de commutation sous volant de direction assure également les fonctions suivantes : 
+<ul>
+<li>Pilotage du bruiteur intégré au support combinateur en fonction des demandes de son émis par le BSI</li>
+<li>Réception des messages HF en provenance du plip et des émetteurs de sous-gonflage</li>
+<li>Communication avec le transpondeur pour l’antidémarrage codé</li>
+<li>Retransmission des informations provenant du capteur d’angle volant de direction</li>
+</ul>
+</div>
+<div class="cha1"><a name="LABEL9"></a><div class="sti1">9. Boîtier de servitude moteur &nbsp;(BSM 2000)</div></div>
+<div class="par">Le boîtier de servitude moteur commande les relais de puissance du véhicule sur ordre du boîtier de servitude intelligent via le réseau VAN CAR 1.</div><div class="par">Le boîtier de servitude moteur est situé sous le capot moteur, sur le passage de roue avant gauche dans la boîte à calculateur.</div><div class="tli">Le boîtier de servitude moteur  est constitué de deux modules associés : 
+<ul>
+<li>Module 1 : Module intégrant les maxi fusibles </li>
+<li>Module 2 : Module intégrant une carte électronique, les fusibles et les relais </li>
+</ul>
+</div>
+<div id="d4ep02yd_7_div"><div class="legende"></div><table class="imgTable"><tbody><tr><td class="imgTable" colspan="2"><div><img src="img/AC/img/inf_inc/yd/d4ep/d4ep02yd.avif" class="image" height="360" width="615" id="d4ep02yd_7"></div></td></tr><tr><td class="imgTable"><span class="fig">Figure : <span class="img_numfich">d4ep02yd</span></span></td><td align="right" class="imgTable"><span class="imgNavbar"><a href="img/AC/img/inf_inc/yd/d4ep/d4ep02yd.avif" data-figure="1"><img id="d4ep02yd_7_FullScreen" border="0" width="20" height="20" alt="Afficher l'image en plein écran" src="img/images/Document/fullscreen.avif"></a></span></td></tr></tbody></table></div><div class="tli">Légende : 
+<ul>
+<li>"a" : Module 2</li>
+<li>"b" : Module 1</li>
+<li>"c" : Étiquette d’identification produit</li>
+</ul>
+</div>
+</div>

@@ -1,0 +1,18 @@
+{
+ "ref": "050101335605",
+ "refDisplay": "0501 01 335605",
+ "title": "COMMANDE VITESSES",
+ "nature": "",
+ "applicability": "BVM BE3R",
+ "typDoc": "1",
+ "css": [
+  "css/Document/pr.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1CN7",
+   "variantKey": "B0D=B0DA3&B0F=B0F2U",
+   "fctId": "FCT0018"
+  }
+ ]
+}

@@ -1,0 +1,29 @@
+{
+ "ref": "1CN705444811",
+ "refDisplay": "1CN7 0 544 4811",
+ "title": "BOITIER TELEPHONE",
+ "nature": "",
+ "applicability": "(A03E) XSARA II BERLINE 5PTES DIESEL TURBO DW10ATED SANS FAP BVA 4 RAPPORTS OU (A02O) XSARA II BERLINE 5PTES DIESEL TURBO DW10ATED SANS FAP BVM5 DISQUES AV VENTILES/DISQUES AR",
+ "typDoc": "6",
+ "css": [
+  "css/Document/baremes.css",
+  "css/Document/common.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1CN7",
+   "variantKey": "B0D=B0DA5&B0F=B0F7C",
+   "fctId": "FCT0350"
+  },
+  {
+   "ldp": "1CN7",
+   "variantKey": "B0D=B0DA5&B0F=B0F2X",
+   "fctId": "FCT0350"
+  },
+  {
+   "ldp": "1CN7",
+   "variantKey": "B0D=B0DAD&B0F=B0F2X",
+   "fctId": "FCT0350"
+  }
+ ]
+}

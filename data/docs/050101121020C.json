@@ -1,0 +1,28 @@
+{
+ "ref": "050101121020C",
+ "refDisplay": "0501 01 121020C",
+ "title": "VILEBREQUIN",
+ "nature": "",
+ "applicability": "BVM DEPUIS MOTEUR 0174878 JUSQU’A MOTEUR 0822887",
+ "typDoc": "1",
+ "css": [
+  "css/Document/pr.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1CN7",
+   "variantKey": "B0D=B0DA3&B0F=B0F6V",
+   "fctId": "FCT0005"
+  },
+  {
+   "ldp": "1CN7",
+   "variantKey": "B0D=B0DA5&B0F=B0F6V",
+   "fctId": "FCT0005"
+  },
+  {
+   "ldp": "1CN7",
+   "variantKey": "B0D=B0DC5&B0F=B0F6V",
+   "fctId": "FCT0005"
+  }
+ ]
+}

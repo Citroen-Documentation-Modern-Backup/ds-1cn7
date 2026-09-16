@@ -1,0 +1,404 @@
+<div id="title" class="section_titre"><table class="refDoc"><tbody><tr><td colspan="2" class="references">D4EB1QP0</td><td class="title">Généralités : Éclairage extérieur / signalisation</td></tr></tbody></table></div><div id="appl" class="section_appl">BOITIER DE SERVITUDE (BSI) COMM 2000 DEPUIS OPR 9002</div><div class="section_corps" id="content"><div class="cha1"><div class="sti1">1. Préambule</div></div>
+<div class="tli">Le véhicule est équipé des nouvelles fonctions suivantes : 
+<ul>
+<li>Module de commutation sous volant de direction Com 2000</li>
+<li>Allumage automatique des feux de croisement </li>
+<li>Allumage automatique des feux de détresse </li>
+<li>Commande impulsionnelle des feux antibrouillard</li>
+<li>Boîtier de servitude moteur multiplexé (BSM 2000), qui gère le fonctionnement des feux situés à l’avant du véhicule, ainsi que l’avertisseur sonore</li>
+</ul>
+</div>
+<div class="cha2"><div class="sti2">1.1. Gestion de l’éclairage</div></div>
+<div class="tableau">
+<table class="tableauAC">
+<thead><tr><th class="tete" colspan="2">Les fonctions éclairage extérieur et signalisation assurent la gestion du fonctionnement de différents organes</th></tr></thead>
+<tbody><tr valign="top"><td colspan="1" rowspan="1">Éclairage extérieur</td>
+<td colspan="1" rowspan="1">Signalisation </td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">2  feux de croisement</td>
+<td colspan="1" rowspan="1">2  feux de position avant</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">2  feux de route</td>
+<td colspan="1" rowspan="1">2 Feux de position arrière </td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">2 Feux de brouillard avant</td>
+<td colspan="1" rowspan="1">1 ou 2 feux d’éclairage de plaque d’immatriculation</td>
+</tr><tr valign="top"><td colspan="1" rowspan="5">-</td>
+<td colspan="1" rowspan="1">1 ou 2  feux de brouillard arrière</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">2 ou 3  feux de stop</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">1 ou 2  feux de recul</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">4 feux de direction (clignotants) et 2 répétiteurs latéraux</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Avertisseur sonore</td>
+</tr></tbody></table>
+</div>
+<div class="tableau">
+<table class="tableauAC">
+<thead><tr><th class="tete" colspan="2">Toutes les demandes d’allumage ou d’extinction sont reçues par le BSI via le Com 2000 sur le réseau VAN CAR 1, puis commandé soit directement par le BSI ou le BSM 2000</th></tr></thead>
+<tbody><tr valign="top"><td colspan="1" rowspan="1">Éléments commandés par le BSI</td>
+<td colspan="1" rowspan="1">Éléments commandés via le BSM 2000</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Feux de position/plaque de police</td>
+<td colspan="1" rowspan="1"> feux de croisement</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Clignotants et répétiteurs latéraux</td>
+<td colspan="1" rowspan="1">Feux de brouillard avant</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1"> feux de brouillard arrière</td>
+<td colspan="1" rowspan="1"> feux de route</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">-</td>
+<td colspan="1" rowspan="1">Avertisseur sonore</td>
+</tr></tbody></table>
+</div>
+<div class="rem"><div class="not"><span class="maj">NOTA</span> : Les feux de recul et les feux de stop sont actionnés directement par leurs contacteurs respectifs  . L’information sur l’état des contacteurs est acquise par le BSI. </div></div>
+<div class="cha2"><div class="sti2">1.2. Allumage manuel ou automatique des feux de croisement et des feux de détresse</div></div>
+<div class="tli">L’allumage ou l’extinction des feux s’effectue de l’une des manières suivantes : 
+<ul>
+<li>Manuellement  : L’utilisateur actionne une commande depuis le module de commutation sous volant de direction ou depuis un contacteur</li>
+<li>Automatique  : Lorsque le mode automatique est sélectionné, l’allumage et l’extinction des feux de croisement s’effectuent en fonction de différents paramètres, comme le capteur de pluie ou de luminosité ; en cas de chocs ou d’une forte décélération pour les feux de direction</li>
+</ul>
+</div>
+<div class="rem"><div class="not"><span class="maj">NOTA</span> : Les commandes manuelles du système d’allumage des feux sont systématiquement prioritaires à l’allumage automatique. </div></div>
+<div class="cha1"><div class="sti1">2. Capteur de luminosité/pluie</div></div>
+<div id="c5dp044c_1_div"><div class="legende"></div><table class="imgTable"><tbody><tr><td class="imgTable" colspan="2"><div><img src="img/AC/img/inf_inc/4c/c5dp/c5dp044c.avif" class="image" height="300" width="300" id="c5dp044c_1"></div></td></tr><tr><td class="imgTable"><span class="fig">Figure : <span class="img_numfich">c5dp044c</span></span></td><td align="right" class="imgTable"><span class="imgNavbar"><a href="img/AC/img/inf_inc/4c/c5dp/c5dp044c.avif" data-figure="1"><img id="c5dp044c_1_FullScreen" border="0" width="20" height="20" alt="Afficher l'image en plein écran" src="img/images/Document/fullscreen.avif"></a></span></td></tr></tbody></table></div><div class="tli">Légende : 
+<ul>
+<li>"     a" : Capteur de luminosité </li>
+<li>"b" : Capteur de pluie</li>
+</ul>
+</div>
+<div class="par">Le capteur de luminosité donne une information représentative de la luminosité ambiante extérieure.</div><div class="par">Le capteur de luminosité est placé à l’intérieur de l’habitacle, plaqué contre le pare-brise    . Le système fait abstraction d’une teinte éventuelle du pare-brise. Le changement du pare-brise par une même référence n’affecte pas la fonctionnalité du système et ne modifie en rien ses caractéristiques.</div><div class="rem"><div class="not"><span class="maj">NOTA</span> : Le capteur de pluie et d’ensoleillement sont multiplexés sur le réseau VAN CAR 1. </div></div>
+<div class="cha1"><div class="sti1">3. Boîtier de servitude moteur  (BSM 2000)</div></div>
+<div class="par">Le boîtier de servitude moteur commande les relais de puissance du véhicule sur ordre du boîtier de servitude intelligent via le réseau VAN CAR 1 . Le boîtier de servitude moteur est situé sous le capot moteur, sur le passage de roue avant gauche dans la boîte à calculateur.</div><div class="tli">Le boîtier de servitude moteur  est constitué de deux modules associés : 
+<ul>
+<li>Module 1 : Module intégrant les maxi fusibles  "e"</li>
+<li>Module 2 : Module intégrant une carte électronique, les fusibles et les relais  "d"</li>
+</ul>
+</div>
+<div id="d4ep04nd_2_div"><div class="legende"></div><table class="imgTable"><tbody><tr><td class="imgTable" colspan="2"><div><img src="img/AC/img/inf_inc/nd/d4ep/d4ep04nd.avif" class="image" height="360" width="615" id="d4ep04nd_2"></div></td></tr><tr><td class="imgTable"><span class="fig">Figure : <span class="img_numfich">d4ep04nd</span></span></td><td align="right" class="imgTable"><span class="imgNavbar"><a href="img/AC/img/inf_inc/nd/d4ep/d4ep04nd.avif" data-figure="1"><img id="d4ep04nd_2_FullScreen" border="0" width="20" height="20" alt="Afficher l'image en plein écran" src="img/images/Document/fullscreen.avif"></a></span></td></tr></tbody></table></div><div class="tli">Légende : 
+<ul>
+<li>"      d" : Module 2</li>
+<li>"e" : Module 1</li>
+<li>"c" : Étiquette d’identification produit</li>
+</ul>
+</div>
+<div class="cha1"><div class="sti1">4. Synoptique de la fonction éclairage extérieur</div></div>
+<div id="d4ep05vd_3_div"><div class="legende"></div><table class="imgTable"><tbody><tr><td class="imgTable" colspan="2"><div><img src="img/AC/img/inf_inc/vd/d4ep/d4ep05vd.avif" class="image" height="360" width="615" id="d4ep05vd_3"></div></td></tr><tr><td class="imgTable"><span class="fig">Figure : <span class="img_numfich">d4ep05vd</span></span></td><td align="right" class="imgTable"><span class="imgNavbar"><a href="img/AC/img/inf_inc/vd/d4ep/d4ep05vd.avif" data-figure="1"><img id="d4ep05vd_3_FullScreen" border="0" width="20" height="20" alt="Afficher l'image en plein écran" src="img/images/Document/fullscreen.avif"></a></span></td></tr></tbody></table></div><div class="tli">Légende : 
+<ul>
+<li>Flèche simple    : Liaison filaire</li>
+<li>Flèche triple : Liaison multiplexée</li>
+</ul>
+</div>
+<div class="tableau">
+<table class="tableauAC">
+<thead><tr><th class="tete" colspan="2">Organes</th></tr></thead>
+<tbody><tr valign="top"><td colspan="1" rowspan="1">BSI </td>
+<td colspan="1" rowspan="1">Boîtier de servitude intelligent </td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">CV00</td>
+<td colspan="1" rowspan="1">Module de commutation sous volant de direction</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">BSM</td>
+<td colspan="1" rowspan="1">Boîtier de servitude moteur multiplexé (BSM 2000)</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">1320</td>
+<td colspan="1" rowspan="1">Calculateur moteur </td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">0004</td>
+<td colspan="1" rowspan="1">Combiné </td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">5001</td>
+<td colspan="1" rowspan="1">Capteur de pluie</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">8038</td>
+<td colspan="1" rowspan="1">Capteur de luminosité </td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">A</td>
+<td colspan="1" rowspan="1"> feux de croisement.  feux de route. Feux de brouillard avant</td>
+</tr></tbody></table>
+</div>
+<div class="tableau">
+<table class="tableauAC">
+<thead><tr><th class="tete" colspan="3">Liaisons</th></tr></thead>
+<tbody><tr valign="top"><td colspan="1" rowspan="1">N° de liaison</td>
+<td colspan="1" rowspan="1">Signal </td>
+<td colspan="1" rowspan="1">Nature du signal</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">1</td>
+<td colspan="1" rowspan="1">Position du commutateur d’éclairage</td>
+<td colspan="1" rowspan="1">VAN CAR1</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">2</td>
+<td colspan="1" rowspan="1">Information vitesse véhicule . Information de distance parcourue</td>
+<td colspan="1" rowspan="1">CAN </td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">3</td>
+<td colspan="1" rowspan="1">Commande des relais de feux de croisement. Commande des relais de feux de route. Commande des relais des feux de brouillard avant</td>
+<td colspan="1" rowspan="1">VAN CAR1</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">4</td>
+<td colspan="1" rowspan="1">Commande des feux de croisement. Commande des feux de route. Commande des feux de brouillard avant</td>
+<td colspan="1" rowspan="1">Tout ou rien</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">5</td>
+<td colspan="1" rowspan="1">Commande du témoin de feux de croisement. Commande du témoin de feux de route. Commande du témoin des feux de brouillard avant</td>
+<td colspan="1" rowspan="1">VAN Confort</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">6</td>
+<td colspan="1" rowspan="1">Information capteur de pluie</td>
+<td colspan="1" rowspan="1">VAN CAR1</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">7</td>
+<td colspan="1" rowspan="1">Information sur la luminosité</td>
+<td colspan="1" rowspan="1">VAN CAR1</td>
+</tr></tbody></table>
+</div>
+<div class="cha1"><div class="sti1">5. Synoptique de la fonction signalisation</div></div>
+<div id="d4ep05wd_4_div"><div class="legende"></div><table class="imgTable"><tbody><tr><td class="imgTable" colspan="2"><div><img src="img/AC/img/inf_inc/wd/d4ep/d4ep05wd.avif" class="image" height="360" width="615" id="d4ep05wd_4"></div></td></tr><tr><td class="imgTable"><span class="fig">Figure : <span class="img_numfich">d4ep05wd</span></span></td><td align="right" class="imgTable"><span class="imgNavbar"><a href="img/AC/img/inf_inc/wd/d4ep/d4ep05wd.avif" data-figure="1"><img id="d4ep05wd_4_FullScreen" border="0" width="20" height="20" alt="Afficher l'image en plein écran" src="img/images/Document/fullscreen.avif"></a></span></td></tr></tbody></table></div><div class="tli">Légende : 
+<ul>
+<li>Flèche simple    : Liaison filaire</li>
+<li>Flèche triple : Liaison multiplexée</li>
+</ul>
+</div>
+<div class="tableau">
+<table class="tableauAC">
+<thead><tr><th class="tete" colspan="2">Organes</th></tr></thead>
+<tbody><tr valign="top"><td colspan="1" rowspan="1">BSI </td>
+<td colspan="1" rowspan="1">Boîtier de servitude intelligent </td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">BSM</td>
+<td colspan="1" rowspan="1">Boîtier de servitude moteur multiplexé (BSM 2000)</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">CV00</td>
+<td colspan="1" rowspan="1">Module de commutation sous volant de direction</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">BFH 28</td>
+<td colspan="1" rowspan="1">Boîte à fusible habitacle</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">0004</td>
+<td colspan="1" rowspan="1">Combiné </td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">1320</td>
+<td colspan="1" rowspan="1">Calculateur moteur </td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">2100</td>
+<td colspan="1" rowspan="1">Contacteur de feux de stop</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">2300</td>
+<td colspan="1" rowspan="1">Contacteur de feux de détresse</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">2520</td>
+<td colspan="1" rowspan="1">Avertisseur sonore</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">6200</td>
+<td colspan="1" rowspan="1">Contacteur de porte ouverte conducteur</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">6570</td>
+<td colspan="1" rowspan="1">Calculateur d’airbag</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">B</td>
+<td colspan="1" rowspan="1"> feux de position. Éclairage de la plaque de police.  feux de brouillard arrière</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">C</td>
+<td colspan="1" rowspan="1">Clignotants</td>
+</tr></tbody></table>
+</div>
+<div class="tableau">
+<table class="tableauAC">
+<thead><tr><th class="tete" colspan="3">Liaisons</th></tr></thead>
+<tbody><tr valign="top"><td colspan="1" rowspan="1">N° de liaison</td>
+<td colspan="1" rowspan="1">Signal </td>
+<td colspan="1" rowspan="1">Nature du signal</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">8</td>
+<td colspan="1" rowspan="1">Information d’appui sur la pédale de frein</td>
+<td colspan="1" rowspan="1">Tout ou rien</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">9</td>
+<td colspan="1" rowspan="1">État de la porte conducteur</td>
+<td colspan="1" rowspan="1">Tout ou rien</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">10</td>
+<td colspan="1" rowspan="1">Information vitesse véhicule </td>
+<td colspan="1" rowspan="1">CAN </td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">11</td>
+<td colspan="1" rowspan="1">Commande des feux de position. Commande de l’éclairage de la plaque de police. Commande des feux de brouillard arrière</td>
+<td colspan="1" rowspan="1">Tout ou rien</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">12</td>
+<td colspan="1" rowspan="1">Commande des feux de position. Commande de l’éclairage de la plaque de police. Commande des feux de brouillard arrière</td>
+<td colspan="1" rowspan="1">Tout ou rien</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">13</td>
+<td colspan="1" rowspan="1">Commande des clignotants et des répétiteurs latéraux</td>
+<td colspan="1" rowspan="1">Tout ou rien</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">14</td>
+<td colspan="1" rowspan="1">Commande du relais de l’avertisseur sonore</td>
+<td colspan="1" rowspan="1">VAN CAR1</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">15</td>
+<td colspan="1" rowspan="1">Commande d’avertisseur sonore</td>
+<td colspan="1" rowspan="1">Tout ou rien</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">16</td>
+<td colspan="1" rowspan="1">Commande du témoin des feux de position. Commande du témoin de feux de détresse. Commande du témoin des feux de brouillard arrière. Commande des témoins des clignotants</td>
+<td colspan="1" rowspan="1">VAN Confort</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">17</td>
+<td colspan="1" rowspan="1">État du contacteur de signal de détresse</td>
+<td colspan="1" rowspan="1">Tout ou rien</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">18</td>
+<td colspan="1" rowspan="1">Commande de la diode du contacteur de signal de détresse</td>
+<td colspan="1" rowspan="1">Tout ou rien</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">19</td>
+<td colspan="1" rowspan="1">Commande du bruiteur</td>
+<td colspan="1" rowspan="1">VAN CAR1</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">20</td>
+<td colspan="1" rowspan="1">Position du commutateur d’éclairage</td>
+<td colspan="1" rowspan="1">VAN CAR1</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">21</td>
+<td colspan="1" rowspan="1">Information de déclenchement d’un élément pyrotechnique</td>
+<td colspan="1" rowspan="1">VAN CAR1</td>
+</tr></tbody></table>
+</div>
+<div class="cha1"><div class="sti1">6. Description du commutateur d’éclairage/signalisation</div></div>
+<div id="d4ap02ec_5_div"><div class="legende"></div><table class="imgTable"><tbody><tr><td class="imgTable" colspan="2"><div><img src="img/AC/img/inf_inc/ec/d4ap/d4ap02ec.avif" class="image" height="300" width="300" id="d4ap02ec_5"></div></td></tr><tr><td class="imgTable"><span class="fig">Figure : <span class="img_numfich">d4ap02ec</span></span></td><td align="right" class="imgTable"><span class="imgNavbar"><a href="img/AC/img/inf_inc/ec/d4ap/d4ap02ec.avif" data-figure="1"><img id="d4ap02ec_5_FullScreen" border="0" width="20" height="20" alt="Afficher l'image en plein écran" src="img/images/Document/fullscreen.avif"></a></span></td></tr></tbody></table></div><div class="tableau">
+<table class="tableauAC">
+<tbody><tr valign="top"><td colspan="1" rowspan="1">   -</td>
+<td colspan="1" rowspan="1">Position/mouvement</td>
+<td colspan="1" rowspan="1">Fonctionnalités</td>
+</tr><tr valign="top"><td colspan="1" rowspan="3">"g"</td>
+<td colspan="1" rowspan="1">Position 0</td>
+<td colspan="1" rowspan="1">Pas d’éclairage</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Position 1</td>
+<td colspan="1" rowspan="1"> feux de position</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Position 2</td>
+<td colspan="1" rowspan="1">Feux de croisement/feux de route</td>
+</tr><tr valign="top"><td colspan="1" rowspan="2">"k"</td>
+<td colspan="1" rowspan="2">Appui court</td>
+<td colspan="1" rowspan="1">En +ACC, activation/neutralisation de la fonction allumage automatique des feux</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">En +APC rappel du dernier message de l’aide à la navigation</td>
+</tr><tr valign="top"><td colspan="1" rowspan="4">"h"</td>
+<td colspan="1" rowspan="1">Une impulsion +</td>
+<td colspan="1" rowspan="1">Allumage des feux de brouillard avant si feux de position allumés</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Une deuxième impulsion +</td>
+<td colspan="1" rowspan="1">Allumage des feux de brouillard arrière. Les feux de brouillard avant restent allumés</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Une impulsion -</td>
+<td colspan="1" rowspan="1">Extinction des feux de brouillard arrière. Les feux de brouillard avant restent allumés</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Une deuxième impulsion -</td>
+<td colspan="1" rowspan="1">Extinction des feux de brouillard avant</td>
+</tr><tr valign="top"><td colspan="1" rowspan="2">"j"</td>
+<td colspan="1" rowspan="1">Action sur le commutateur en le tirant vers soi au premier cran</td>
+<td colspan="1" rowspan="1">Appel de phare</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Action sur le commutateur en le tirant vers soi au deuxième cran</td>
+<td colspan="1" rowspan="1">Changement feu de croisement à feu de route et inversement</td>
+</tr><tr valign="top"><td colspan="1" rowspan="2">"f"</td>
+<td colspan="1" rowspan="1">Vers le haut</td>
+<td colspan="1" rowspan="1">Clignotant droit</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Vers le bas</td>
+<td colspan="1" rowspan="1">Clignotant gauche</td>
+</tr></tbody></table>
+</div>
+<div class="cha1"><div class="sti1">7. Positionnement des feux selon la position de la clé de contact</div></div>
+<div class="tableau">
+<table class="tableauAC">
+<tbody><tr valign="top"><td colspan="1" rowspan="1">  </td>
+<td colspan="5" rowspan="1">Situation de vie</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Organes</td>
+<td colspan="1" rowspan="1"> arrêt</td>
+<td colspan="1" rowspan="1">+ACC</td>
+<td colspan="1" rowspan="1">+APC</td>
+<td colspan="1" rowspan="1">+DEM</td>
+<td colspan="1" rowspan="1"> moteur tournant</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1"> feux de position</td>
+<td colspan="1" rowspan="1">X</td>
+<td colspan="1" rowspan="1">X</td>
+<td colspan="1" rowspan="1">X</td>
+<td colspan="1" rowspan="1">X</td>
+<td colspan="1" rowspan="1">X</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1"> feux de croisement</td>
+<td colspan="1" rowspan="1">X</td>
+<td colspan="1" rowspan="1">X</td>
+<td colspan="1" rowspan="1">X</td>
+<td colspan="1" rowspan="1">X</td>
+<td colspan="1" rowspan="1">X</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1"> feux de route</td>
+<td colspan="1" rowspan="1">X</td>
+<td colspan="1" rowspan="1">X</td>
+<td colspan="1" rowspan="1">X</td>
+<td colspan="1" rowspan="1">X</td>
+<td colspan="1" rowspan="1">X</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Appel de phare</td>
+<td colspan="1" rowspan="1">X</td>
+<td colspan="1" rowspan="1">X</td>
+<td colspan="1" rowspan="1">X</td>
+<td colspan="1" rowspan="1">X</td>
+<td colspan="1" rowspan="1">X</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Feux de détresse</td>
+<td colspan="1" rowspan="1">X</td>
+<td colspan="1" rowspan="1">X</td>
+<td colspan="1" rowspan="1">X</td>
+<td colspan="1" rowspan="1">X</td>
+<td colspan="1" rowspan="1">X</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Avertisseur sonore</td>
+<td colspan="1" rowspan="1">X</td>
+<td colspan="1" rowspan="1">X</td>
+<td colspan="1" rowspan="1">X</td>
+<td colspan="1" rowspan="1">X</td>
+<td colspan="1" rowspan="1">X</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Feux de direction </td>
+<td colspan="1" rowspan="1">-</td>
+<td colspan="1" rowspan="1">-</td>
+<td colspan="1" rowspan="1">X</td>
+<td colspan="1" rowspan="1">X</td>
+<td colspan="1" rowspan="1">X</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Feux de brouillard avant</td>
+<td colspan="1" rowspan="1">-</td>
+<td colspan="1" rowspan="1">-</td>
+<td colspan="1" rowspan="1">X</td>
+<td colspan="1" rowspan="1">X. (si feux de position allumés)</td>
+<td colspan="1" rowspan="1">X</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1"> feux de brouillard arrière</td>
+<td colspan="1" rowspan="1">-</td>
+<td colspan="1" rowspan="1">-</td>
+<td colspan="1" rowspan="1">X</td>
+<td colspan="1" rowspan="1">X. (si feux de position allumés)</td>
+<td colspan="1" rowspan="1">X</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1"> feux de stop</td>
+<td colspan="1" rowspan="1">-</td>
+<td colspan="1" rowspan="1">-</td>
+<td colspan="1" rowspan="1">X</td>
+<td colspan="1" rowspan="1">X</td>
+<td colspan="1" rowspan="1">X</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1"> feux de recul</td>
+<td colspan="1" rowspan="1">-</td>
+<td colspan="1" rowspan="1">-</td>
+<td colspan="1" rowspan="1">X</td>
+<td colspan="1" rowspan="1">X</td>
+<td colspan="1" rowspan="1">X</td>
+</tr></tbody></table>
+</div>
+<div class="cha1"><div class="sti1">8. Récapitulatif des alimentations, commandes, affichages, bruiteurs</div></div>
+<div class="tableau">
+<table class="tableauAC">
+<tbody><tr valign="top"><td colspan="1" rowspan="1">Fonctions </td>
+<td colspan="1" rowspan="1">Position clé de contact</td>
+<td colspan="1" rowspan="1">Commande </td>
+<td colspan="1" rowspan="1">Affichage </td>
+<td colspan="1" rowspan="1">Bruiteur intégré au Com 2000</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1"> feux de position</td>
+<td colspan="1" rowspan="1"> arrêt</td>
+<td colspan="1" rowspan="1">Position feux de position</td>
+<td colspan="1" rowspan="1">Éclairage du combiné</td>
+<td colspan="1" rowspan="1">Si clé de contact en position arrêt et si porte ouverte</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1"> feux de croisement</td>
+<td colspan="1" rowspan="1"> arrêt</td>
+<td colspan="1" rowspan="1">Position feux de croisement</td>
+<td colspan="1" rowspan="1">Voyant de feux de croisement + Éclairage du combiné</td>
+<td colspan="1" rowspan="1">Si clé de contact en position arrêt et si porte ouverte</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1"> feux de route</td>
+<td colspan="1" rowspan="1"> arrêt</td>
+<td colspan="1" rowspan="1">Position feux de route</td>
+<td colspan="1" rowspan="1">Voyant de feux de croisement + Éclairage du combiné</td>
+<td colspan="1" rowspan="1">Si clé de contact en position arrêt et si porte ouverte</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Appel de phare</td>
+<td colspan="1" rowspan="1"> arrêt</td>
+<td colspan="1" rowspan="1">Impulsion route</td>
+<td colspan="1" rowspan="1">Voyant feux de route</td>
+<td colspan="1" rowspan="1">Non</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Feux de détresse</td>
+<td colspan="1" rowspan="1"> arrêt</td>
+<td colspan="1" rowspan="1">Contacteur de feux de détresse</td>
+<td colspan="1" rowspan="1">Voyant  au combiné </td>
+<td colspan="1" rowspan="1">Oui</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Avertisseur sonore</td>
+<td colspan="1" rowspan="1"> arrêt</td>
+<td colspan="1" rowspan="1">Commande sur volant</td>
+<td colspan="1" rowspan="1">Non</td>
+<td colspan="1" rowspan="1">Non</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Feux de direction </td>
+<td colspan="1" rowspan="1">+ACC</td>
+<td colspan="1" rowspan="1">Position droite / gauche</td>
+<td colspan="1" rowspan="1">Voyant  au combiné </td>
+<td colspan="1" rowspan="1">Oui</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Feux de brouillard avant</td>
+<td colspan="1" rowspan="1">+APC (si feux de position allumés)</td>
+<td colspan="1" rowspan="1">Première impulsion rotative +</td>
+<td colspan="1" rowspan="1">Voyant  au combiné </td>
+<td colspan="1" rowspan="1">Non</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1"> feux de brouillard arrière</td>
+<td colspan="1" rowspan="1">+APC (si feux de position allumés)</td>
+<td colspan="1" rowspan="1">Deuxième impulsion rotative +</td>
+<td colspan="1" rowspan="1">Voyant  au combiné </td>
+<td colspan="1" rowspan="1">Non</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1"> feux de stop</td>
+<td colspan="1" rowspan="1">+APC</td>
+<td colspan="1" rowspan="1">Contacteur pédale frein</td>
+<td colspan="1" rowspan="1">Non</td>
+<td colspan="1" rowspan="1">Non</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1"> feux de recul</td>
+<td colspan="1" rowspan="1">+APC</td>
+<td colspan="1" rowspan="1">Contacteur de marche arrière</td>
+<td colspan="1" rowspan="1">Non</td>
+<td colspan="1" rowspan="1">Non</td>
+</tr></tbody></table>
+</div>
+</div>
