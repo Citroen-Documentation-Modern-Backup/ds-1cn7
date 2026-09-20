@@ -1,18 +1,1 @@
-{
- "ref": "050106183035",
- "refDisplay": "0501 06 183035",
- "title": "COLLECTEUR CATALYSEUR ECHAPP AV",
- "nature": "",
- "applicability": "DEPOLLUTION TECHNIQUE VEHICULE L4",
- "typDoc": "1",
- "css": [
-  "css/Document/pr.css"
- ],
- "usedBy": [
-  {
-   "ldp": "1CN7",
-   "variantKey": "B0D=B0DA3&B0F=B0F2U",
-   "fctId": "FCT0011"
-  }
- ]
-}
+{"ref":"050106183035","refDisplay":"0501 06 183035","title":"COLLECTEUR CATALYSEUR ECHAPP AV","nature":"","applicability":"DEPOLLUTION TECHNIQUE VEHICULE L4","typDoc":"1","css":["css/Document/pr.css"],"usedBy":[{"ldp":"1CN7","variantKey":"B0D=B0DA3&B0F=B0F2U","fctId":"FCT0011"}],"kind":"pr","appl":"{(?1CN7)(B0F2U)(DUV07)}","tree":["document",{},[["thesaurus",{"type":"7","code":"A005-"},[]],["thesaurus",{"type":"10","code":"000181"},[]],["thesaurus",{"type":"10","code":"000390"},[]],["thesaurus",{"type":"10","code":"004660"},[]],["thesaurus",{"type":"10","code":"006142"},[]],["thesaurus",{"type":"10","code":"008014"},[]],["thesaurus",{"type":"10","code":"000188"},[]],["mpr",{"catal":"0501","grp":"49","grp2":"06","maj":"20111022","numfich":"183035"},[["appl",{},["{(?1CN7)(B0F2U)(DUV07)}"]],["sti",{"ident":"4901"},[]],["img",{"numfich":"00038180","path":"/img/pr/80/0003/00038180.jpg","ext":"jpg"},[]],["repere",{"rep":"01"},[["pr",{"codesi":"000181","ref":"00000341G1","refpg":"0341 G1"},[["pmont",{"coef":"01"},[["appl",{},["{(?1CN7)}"]]]]]],["interactivite",{"order":"01"},[["area",{"coords":"212, 41, 11","shape":"circle"},[]]]]]],["repere",{"rep":"02"},[["pr",{"codesi":"000390","ref":"00000349F4","refpg":"0349 F4"},[["pmont",{"coef":"01"},[["appl",{},["{(?1CN7)}"]],["complpr",{"matiere":"A005-"},[]]]]]],["interactivite",{"order":"02"},[["area",{"coords":"67, 216, 11","shape":"circle"},[]]]]]],["repere",{"rep":"03"},[["pr",{"codesi":"004660","ref":"0000035562","refpg":"0355 62"},[["pmont",{"coef":"10"},[["appl",{},["{(?1CN7)}"]]]],["descomp",{},[["lib",{"langue":"01"},["8X125-15-26"]]]]]],["interactivite",{"order":"03"},[["area",{"coords":"154, 266, 11","shape":"circle"},[]],["area",{"coords":"48, 5, 11","shape":"circle"},[]]]]]],["repere",{"rep":"04"},[["pr",{"codesi":"006142","ref":"0000034122","refpg":"0341 22"},[["pmont",{"coef":"10"},[["appl",{},["{(?1CN7)}"]]]],["descomp",{},[["lib",{"langue":"01"},["8X125-11-17,5"]]]]]],["interactivite",{"order":"04"},[["area",{"coords":"105, 5, 11","shape":"circle"},[]],["area",{"coords":"321, 173, 11","shape":"circle"},[]]]]]],["repere",{"rep":"10"},[["pr",{"codesi":"008014","ref":"00001705JC","refpg":"1705 JC"},[["pmont",{"coef":"01"},[["appl",{},["{(?1CN7)}"]]]],["descomp",{},[["lib",{"langue":"01"},["TR PSA K197"]]]]]],["interactivite",{"order":"05"},[["area",{"coords":"198, 336, 11","shape":"circle"},[]]]]]],["repere",{"rep":"11"},[["pr",{"codesi":"000188","ref":"0000171369","refpg":"1713 69"},[["pmont",{"coef":"01"},[["appl",{},["{(?1CN7)}"]]]],["descomp",{},[["lib",{"langue":"01"},["DIAM 74,5"]]]]]],["interactivite",{"order":"06"},[["area",{"coords":"319, 21, 11","shape":"circle"},[]]]]]]]]]]}

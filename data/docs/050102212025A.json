@@ -1,18 +1,1 @@
-{
- "ref": "050102212025A",
- "refDisplay": "0501 02 212025A",
- "title": "BOUGIES - MODULE - BOBINE ALLUMAGE",
- "nature": "",
- "applicability": "",
- "typDoc": "1",
- "css": [
-  "css/Document/pr.css"
- ],
- "usedBy": [
-  {
-   "ldp": "1CN7",
-   "variantKey": "B0D=B0DA3&B0F=B0F2U",
-   "fctId": "FCT0013"
-  }
- ]
-}
+{"ref":"050102212025A","refDisplay":"0501 02 212025A","title":"BOUGIES - MODULE - BOBINE ALLUMAGE","nature":"","applicability":"","typDoc":"1","css":["css/Document/pr.css"],"usedBy":[{"ldp":"1CN7","variantKey":"B0D=B0DA3&B0F=B0F2U","fctId":"FCT0013"}],"kind":"pr","appl":"{(?1CN7)(B0F2U)}","tree":["document",{},[["thesaurus",{"type":"10","code":"001862"},[]],["thesaurus",{"type":"10","code":"001844"},[]],["thesaurus",{"type":"10","code":"008987"},[]],["thesaurus",{"type":"10","code":"007259"},[]],["thesaurus",{"type":"10","code":"008699"},[]],["mpr",{"catal":"0501","grp":"46","grp2":"02","maj":"20120113","numfich":"212025A"},[["appl",{},["{(?1CN7)(B0F2U)}"]],["sti",{"ident":"4601"},[]],["img",{"numfich":"00016152","path":"/img/pr/52/0001/00016152.jpg","ext":"jpg"},[]],["repere",{"rep":"01"},[["pr",{"codesi":"001862","ref":"0000596004","refpg":"5960 04"},[["pmont",{"coef":"04"},[["appl",{},["{(?1CN7)}"]]]]]],["pr",{"codesi":"001862","ref":"0000596005","refpg":"5960 05"},[["pmont",{"coef":"04"},[["appl",{},["{(?1CN7)}"]]]]]],["interactivite",{"order":"01"},[["area",{"coords":"171, 247, 11","shape":"circle"},[]]]]]],["repere",{"rep":"02"},[["pr",{"codesi":"001844","ref":"0000597055","refpg":"5970 55"},[["pmont",{"coef":"04"},[["appl",{},["{(?1CN7)}"]]]]]],["interactivite",{"order":"02"},[["area",{"coords":"165, 138, 11","shape":"circle"},[]]]]]],["repere",{"rep":"03"},[["pr",{"codesi":"008987","ref":"0000596315","refpg":"5963 15"},[["pmont",{"coef":"01"},[["appl",{},["{(?1CN7)}"]]]]]],["interactivite",{"order":"03"},[["area",{"coords":"169, 203, 11","shape":"circle"},[]]]]]],["repere",{"rep":"04"},[["pr",{"codesi":"007259","ref":"0000597990","refpg":"5979 90"},[["pmont",{"coef":"01"},[["appl",{},["{(?1CN7)}"]]]]]],["interactivite",{"order":"04"},[["area",{"coords":"359, 163, 11","shape":"circle"},[]]]]]],["repere",{"rep":"70"},[["pr",{"codesi":"008699","ref":"00006913P4","refpg":"6913 P4"},[["pmont",{"coef":"08"},[["appl",{},["{(?1CN7)}"]]]],["descomp",{},[["lib",{"langue":"01"},["DIAM 6X100-25"]]]]]],["interactivite",{"order":"05"},[["area",{"coords":"280, 189, 11","shape":"circle"},[]],["area",{"coords":"7, 5, 11","shape":"circle"},[]]]]]],["repere",{"rep":"71"},[["pr",{"codesi":"008699","ref":"00006913G9","refpg":"6913 G9"},[["pmont",{"coef":"06"},[["appl",{},["{(?1CN7)}"]]]],["descomp",{},[["lib",{"langue":"01"},["DIAM 6X100-16"]]]]]],["interactivite",{"order":"06"},[["area",{"coords":"354, 64, 11","shape":"circle"},[]],["area",{"coords":"44, 5, 11","shape":"circle"},[]]]]]]]]]]}
